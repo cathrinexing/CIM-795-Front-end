@@ -1,2 +1,1 @@
-# CIM-795-Front-end
-courseware
+front-end
