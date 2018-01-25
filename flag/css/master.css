@@ -1,0 +1,15 @@
+.flags {
+  width: 400px;
+  height: 400px;
+  border: 1px solie #ccc;
+}
+
+.mexico{
+  border-right: 133px solid #006847;
+  border-right: 133px solid #CE1126;
+  width: 133px;
+  background: url(../images/mexico.svg);
+
+
+
+}
