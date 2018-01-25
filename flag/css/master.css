@@ -9,7 +9,9 @@
   border-right: 133px solid #CE1126;
   width: 133px;
   background: url(../images/mexico.svg);
-
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
 
 
 }
