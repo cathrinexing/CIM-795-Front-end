@@ -3,6 +3,7 @@
   height: 300px;
   border: 1px solid #000000;
   background-color: #FFFFFF;
+  margin-bottom: 100px;
 }
 
 .argentina{
@@ -36,5 +37,5 @@
 .france{
   border-left: 133px solid #0055A4;
   border-right: 133px solid #EF4135;
-  width: auto;
+  width: 133px;
 }
