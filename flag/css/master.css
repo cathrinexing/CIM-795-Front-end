@@ -7,7 +7,7 @@
 
 .argentina{
   border-top: 133px solid #006847;
-  border-bottom: : 133px solid #CE1126;
+  border-bottom: 133px solid #CE1126;
   height: 133px;
   background: url(../imgs/argentina.svg);
   background-position: center;
@@ -36,4 +36,5 @@
 .france{
   border-left: 133px solid #0055A4;
   border-right: 133px solid #EF4135;
+  width: auto;
 }
