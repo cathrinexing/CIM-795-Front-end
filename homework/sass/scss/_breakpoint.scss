@@ -17,7 +17,6 @@
   }
 }
 
-
 .container{
 @include  media (320px){
 
@@ -26,7 +25,7 @@
 @include media(768px){
   background: red;
 }
-@include media(1500px){
+@include media(1024px){
   background: yellow;
 }
 }
