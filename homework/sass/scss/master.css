@@ -1,11 +1,11 @@
 @media only screen and (max-width: 320px) {
-  .container {
+  .cc {
     background: green; } }
 @media only screen and (max-width: 768px) {
-  .container {
+  .cc {
     background: red; } }
 @media only screen and (max-width: 1024px) {
-  .container {
+  .cc {
     background: yellow; } }
 
 /*# sourceMappingURL=master.css.map */

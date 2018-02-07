@@ -17,9 +17,8 @@
   }
 }
 
-.container{
+.cc{
 @include  media (320px){
-
   background: green;
 }
 @include media(768px){
