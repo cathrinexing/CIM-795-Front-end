@@ -1,21 +1,11 @@
-// @media  only screen and(max-width:320px){
-//   background-color: red;
-// }
-//
-// @media  only screen and(max-width:768px){
-//   background-color: pink;
-// }
-//
-// @media  only screen and(max-width:1024px){
-//   background-color: blue;
-// }
 
 
 @mixin media ($width){
-  @media only screen and (max-width:$width){
+  @media only screen and (min-width:$width){
   @content;
   }
 }
+
 
 .cc{
 @include  media (320px){
