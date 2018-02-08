@@ -1,0 +1,11 @@
+@media only screen and (min-width: 320px) {
+  .cc {
+    background: green; } }
+@media only screen and (min-width: 768px) {
+  .cc {
+    background: red; } }
+@media only screen and (min-width: 1024px) {
+  .cc {
+    background: yellow; } }
+
+/*# sourceMappingURL=master.css.map */
