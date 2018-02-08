@@ -1,41 +1,90 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1500px; }
+
 .flags {
   width: 400px;
   height: 300px;
-  border: 1px solid #000000;
-  background-color: #FFFFFF;
+  border: 1px solid black;
+  background-color: white;
   margin-bottom: 100px;
-}
+  display: inline-block;
+  margin: 30px;
+  position: relative; }
 
-.argentina{
-  border-top: 133px solid #006847;
-  border-bottom: 133px solid #CE1126;
-  height: 133px;
+.argentina {
+  border-top: 100px solid #006847;
+  border-bottom: 100px solid #CE1126;
+  height: 100px;
   background: url(../imgs/argentina.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100px 100px;
-}
+  background-size: 100px 100px; }
 
-.japan{
+.japan {
   position: relative;
   width: 400px;
   height: 300px;
-  background-color: #FFFFFF;
-}
+  background-color: white; }
 
-.circle{
+.circle {
   position: absolute;
-  width:200px;
-  height:200px;
-  background-color: #BC002D;
+  width: 200px;
+  height: 200px;
+  background-color: #CE1126;
   border-radius: 100px;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-}
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
-.france{
+.france {
   border-left: 133px solid #0055A4;
   border-right: 133px solid #EF4135;
-  width: 133px;
-}
+  width: 133px; }
+
+.china {
+  background: red; }
+
+.china::before {
+  content: "\2605";
+  color: yellow;
+  font-size: 90px;
+  position: relative;
+  top: 8px;
+  left: 20px; }
+
+.china::after {
+  content: "\2605";
+  color: yellow;
+  font-size: 30px;
+  position: absolute;
+  top: 25px;
+  left: 120px;
+  transform: rotate(45deg);
+  text-shadow: 6px 45px, -30px -30px, -15px 84px; }
+
+.cuba {
+  box-shadow: 0 60px blue inset, 0 120px #FFFFFF inset, 0 180px #0000FF inset, 0 240px #FFFFFF inset, 0 300px #0000FF inset; }
+
+.cuba::before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 150px solid transparent;
+  border-left: 200px solid red;
+  border-bottom: 150px solid transparent; }
+
+.cuba:after {
+  content: "\2605";
+  color: #FFFFFF;
+  font-size: 100px;
+  position: absolute;
+  top: 80px;
+  left: 20px; }
+
+/*# sourceMappingURL=master.css.map */
