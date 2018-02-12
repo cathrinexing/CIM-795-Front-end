@@ -418,9 +418,12 @@
   top: 140px; }
 
 .saitluia {
-  background: linear-gradient(-45deg, #FCD116 14%, transparent 0) -89px -10px, linear-gradient(45deg, #FCD116 14%, transparent 0) 89px -10px, linear-gradient(-65deg, black 16%, transparent 0) -89px -10px, linear-gradient(65deg, black 16%, transparent 0) 89px -10px, linear-gradient(-65deg, white 18%, transparent 0) -89px -10px, linear-gradient(65deg, white 18%, transparent 0) 89px -10px, #66CCFF; }
+  background: linear-gradient(-45deg, #FCD116 14%, transparent 0) -200px -50px, linear-gradient(45deg, #FCD116 14%, transparent 0) 200px -50px, linear-gradient(-65deg, black 16%, transparent 0) -200px -50px, linear-gradient(65deg, black 16%, transparent 0) 200px -50px, linear-gradient(-65deg, white 18%, transparent 0) -200px -50px, linear-gradient(65deg, white 18%, transparent 0) 200px -50px, #66CCFF; }
 
 .seychelles {
   background: linear-gradient(170deg, transparent 79%, #007A3D 55%), linear-gradient(160deg, transparent 65%, white 45%), linear-gradient(141deg, transparent 45%, #D62828 45%), linear-gradient(120deg, transparent 27%, #FCD856 25%), #003F87; }
+
+.demo {
+  background: linear-gradient(170deg, transparent 79%, #007A3D 55%); }
 
 /*# sourceMappingURL=master.css.map */
