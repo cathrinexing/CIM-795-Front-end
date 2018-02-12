@@ -232,4 +232,29 @@
   top: 150px;
   left: 300px; }
 
+.india {
+  box-shadow: 0 100px #ff9933 inset, 0 200px #FFFFFF inset, 0 300px #009b3a inset; }
+  .india:before {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    content: "";
+    background: #FFFFFF;
+    border: 8px solid #00008b;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .india:after {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    content: "";
+    background: radial-gradient(#00008b 20%, #FFFFFF 70%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em; }
+
 /*# sourceMappingURL=master.css.map */

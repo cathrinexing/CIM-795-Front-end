@@ -330,9 +330,31 @@ position: relative;
       left: 300px;
     }
 
-    .india{
-
-
-
-
+    .india {
+    box-shadow: 0 100px $lorange inset, 0 200px $white inset, 0 300px $lgreen inset;
+    &:before {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      content: "";
+      background: $white;
+      border: 8px solid $dblue;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      // font-size: 4em;
     }
+    &:after {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      content: "";
+      background: radial-gradient($dblue 20%, $white 70%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 4em;
+    }
+  }
