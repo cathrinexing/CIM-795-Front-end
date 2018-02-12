@@ -7,7 +7,7 @@
 }
 
 .flags {
-  width: 480px;
+  width:400px;
   height: 300px;
   border: 1px solid black;
   background-color: white;
@@ -38,20 +38,20 @@
 
 .japan::after{
 content:"";
-  width:200px;
-  height:200px;
-  border-radius: 100px;
+  width:150px;
+  height:150px;
+  border-radius: 750px;
   position: absolute;
-  background:red;
+  background:darkred;
   top:50%;
   left:50%;
  transform: translate(-50%,-50%);
 }
 
 .france{
-  border-left: 160px solid #0055A4;
-  border-right: 160px solid #EF4135;
-  width: 160px;
+  border-left: 133px solid #0055A4;
+  border-right: 133px solid #EF4135;
+  width: 133px;
   position: relative;
 
 }
@@ -170,13 +170,13 @@ position: relative;
    left: 0;
    content:"";
    background: #0055A4;
-   width:240px;
+   width:200px;
    height: 165px;
  }
 
 .america::after{
   position: absolute;
-  width: 240px;
+  width: 200px;
   height: 165px;
   color:white;
   content:
@@ -189,11 +189,11 @@ position: relative;
     ★   ★   ★   ★   ★   ★
     ★   ★   ★   ★   ★
     ★   ★   ★   ★   ★   ★";
-    font-size: 23px;
-     line-height: 74%;
+    font-size: 20px;
+     line-height: 84%;
     text-align: center;
  word-wrap: normal;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 
@@ -207,16 +207,16 @@ position: relative;
    content: "";
      top:50%;
      left:50%;
-     width:260px;
-     height: 220px;
+     width:220px;
+     height: 200px;
      transform: translate(-50%, -50%) rotate(30deg) skew(-30deg);
  }
 
  > div {
    overflow: hidden;
    position: absolute;
-   width: 200px;
-   height: 180px;
+   width: 180px;
+   height: 160px;
    content: "";
    background: $blue;
    border-radius: 50%;
