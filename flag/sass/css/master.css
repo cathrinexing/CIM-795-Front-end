@@ -342,4 +342,39 @@
   left: 100px;
   top: 0; }
 
+.centralafrican {
+  position: relative;
+  background: linear-gradient(to right, transparent 0%, transparent 42%, #D21034 42%, #D21034 58%, transparent 58%, transparent 100%), linear-gradient(to bottom, #003082, #003082 25%, white 25%, white 50%, #289728 50%, #289728 75%, #FFCE00 75%, #FFCE00 100%); }
+
+.centralafrican::before {
+  position: absolute;
+  content: "★";
+  top: 3px;
+  color: #FFCE00;
+  font-size: 50px;
+  left: 10px; }
+
+.easttimor {
+  background: linear-gradient(145deg, black 25%, transparent 15%) 0 -150px, linear-gradient(34deg, black 25%, transparent 15%) 0 -150px, linear-gradient(155deg, #FFC726 30%, transparent 15%) 0 -150px, linear-gradient(25deg, #FFC726 30%, transparent 15%) 0 -150px, #DC241F;
+  position: relative; }
+
+.easttimor:before {
+  position: absolute;
+  content: "★";
+  color: white;
+  font-size: 100px;
+  top: 80px;
+  left: 30px;
+  transform: rotate(115deg); }
+
+.greece {
+  position: relative;
+  background-image: repeating-linear-gradient(to bottom, #0D5EAF, #0D5EAF calc(300px / 9), white calc(300px / 9), white calc(300px / 9 * 2)); }
+  .greece:before {
+    position: absolute;
+    content: "";
+    width: calc(300px / 9 * 5);
+    height: calc(300px / 9 * 5);
+    background: linear-gradient(to bottom, transparent calc(300px / 9 * 2), white calc(300px / 9 * 2), white calc(300px / 9 * 3), transparent calc(300px / 9 * 3)), linear-gradient(to right, transparent calc(300px / 9 * 2), white calc(300px / 9 * 2), white calc(300px / 9 * 3), transparent calc(300px / 9 * 3)), #0D5EAF; }
+
 /*# sourceMappingURL=master.css.map */
