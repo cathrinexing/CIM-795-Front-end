@@ -254,7 +254,39 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 4em; }
+    transform: translate(-50%, -50%); }
+
+.pakistan {
+  box-shadow: 3em 0 #FFFFFF inset, 12em 0 #01411c inset; }
+  .pakistan:before {
+    content: '\02605';
+    color: #FFFFFF;
+    font-size: 2.5em;
+    position: absolute;
+    top: 0.95em;
+    left: 3em;
+    transform: rotate(35deg); }
+  .pakistan:after {
+    content: '';
+    position: absolute;
+    top: 0.5em;
+    left: 5.6em;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    box-shadow: -0.6em 1em 0 0 white; }
+
+.czech {
+  box-shadow: 0 4.5em #FFFFFF inset, 0 9em #de2910 inset; }
+  .czech:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 4.5em solid transparent;
+    border-left: 5.5em solid #003399;
+    border-bottom: 4.5em solid transparent; }
 
 /*# sourceMappingURL=master.css.map */
