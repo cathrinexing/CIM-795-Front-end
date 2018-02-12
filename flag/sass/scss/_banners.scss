@@ -381,7 +381,7 @@ position: relative;
   }
 
   .czech {
-  box-shadow: 0 4.5em $white inset, 0 9em $mred inset;
+  box-shadow: 0 150px $white inset, 0 300px $mred inset;
   &:before {
     content: "";
     width: 0;
@@ -389,8 +389,8 @@ position: relative;
     position: absolute;
     top: 0;
     left: 0;
-    border-top: 4.5em solid transparent;
-    border-left: 5.5em solid $blue;
-    border-bottom: 4.5em solid transparent;
+    border-top: 150px solid transparent;
+    border-left: 200px solid $blue;
+    border-bottom: 150px solid transparent;
   }
 }

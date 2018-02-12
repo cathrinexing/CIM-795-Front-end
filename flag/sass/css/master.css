@@ -277,7 +277,7 @@
     box-shadow: -0.6em 1em 0 0 white; }
 
 .czech {
-  box-shadow: 0 4.5em #FFFFFF inset, 0 9em #de2910 inset; }
+  box-shadow: 0 150px #FFFFFF inset, 0 300px #de2910 inset; }
   .czech:before {
     content: "";
     width: 0;
@@ -285,8 +285,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    border-top: 4.5em solid transparent;
-    border-left: 5.5em solid #003399;
-    border-bottom: 4.5em solid transparent; }
+    border-top: 150px solid transparent;
+    border-left: 200px solid #003399;
+    border-bottom: 150px solid transparent; }
 
 /*# sourceMappingURL=master.css.map */
