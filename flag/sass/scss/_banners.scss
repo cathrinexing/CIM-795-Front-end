@@ -398,8 +398,9 @@ position: relative;
   }
 }
 
-.africa {
-  background: linear-gradient($mred,$mred 30%, $white 30%, $white 70%, $blue 70%,$blue 100%);
+.southafrica {
+  background: linear-gradient($mred,$mred 30%,
+  $white 30%, $white 70%, $blue 70%,$blue 100%);
   position: relative;
   overflow: hidden;
   &:before {
@@ -411,7 +412,8 @@ position: relative;
     transform: rotate(45deg);
     top:75px;
     left: -75px;
-    box-shadow: 0 0 0 20px $gold, 0 0 0 80px $lgreen, 0 0 0 100px $white;
+    box-shadow: 0 0 0 20px $gold, 0 0 0 80px $lgreen,
+    0 0 0 100px $white;
   }
   &:after {
     position: absolute;
@@ -423,3 +425,36 @@ position: relative;
     left: 180px;
   }
 }
+
+
+.bahamas{
+   background: linear-gradient(to bottom, #00ABC9, #00ABC9 calc(100% / 3),
+      #FAE042 calc(100% / 3), #FAE042 calc(100% / 3 * 2),
+      #00ABC9 calc(100% / 3 * 2), #00ABC9 100%);
+      &:after {
+        content:"";
+        width: 0;
+        height: 0;
+        position: absolute;
+      border-top: 150px solid transparent;
+      border-left:200px solid black;
+      border-bottom: 150px solid transparent;
+        top: 0;
+        left: 0;
+      }
+}
+
+
+.bahrain {
+  background: linear-gradient(90deg, white, white 25%, #CE1126 25%, #CE1126 100%);
+  position: relative; }
+.bahrain:before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 100%;
+  background: linear-gradient(154deg, white 32%, transparent 31%) 0 30px,
+  linear-gradient(24deg, white 32%, transparent 31%) 0 90px;
+  background-size: 60px 60px;
+  left: 100px;
+  top: 0; }
