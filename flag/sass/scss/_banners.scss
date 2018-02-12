@@ -249,4 +249,11 @@ position: relative;
 
 .british{
 
+    background: linear-gradient(transparent 44%, $brightred 44.1%, $brightred 56%, transparent 56.1%),
+    linear-gradient(90deg, transparent 44%, $brightred 44.1%, $brightred 56%, transparent 56.1%),
+    linear-gradient(transparent 40%, $white 40.1%, $white 60%, transparent 60.1%),
+    linear-gradient(90deg, transparent 40%, $white 40.1%, $white 60%, transparent 60.1%),
+    linear-gradient(34deg, transparent 45%, $white 45.1%, $white 48%, $brightred 48.1%, $brightred 52%, $white 52.1%, $white 56%, transparent 56.1%),
+    linear-gradient(-34deg, $blue 45%, $white 45.1%, $white 48%, $brightred 48.1%, $brightred 52%, $white 52.1%, $white 56%, $blue 56%);
+
 }

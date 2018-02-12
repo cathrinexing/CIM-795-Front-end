@@ -188,4 +188,7 @@
       content: "\002739 ";
       text-shadow: 20px 60px white; }
 
+.british {
+  background: linear-gradient(transparent 44%, #cc0000 44.1%, #cc0000 56%, transparent 56.1%), linear-gradient(90deg, transparent 44%, #cc0000 44.1%, #cc0000 56%, transparent 56.1%), linear-gradient(transparent 40%, #FFFFFF 40.1%, #FFFFFF 60%, transparent 60.1%), linear-gradient(90deg, transparent 40%, #FFFFFF 40.1%, #FFFFFF 60%, transparent 60.1%), linear-gradient(34deg, transparent 45%, #FFFFFF 45.1%, #FFFFFF 48%, #cc0000 48.1%, #cc0000 52%, #FFFFFF 52.1%, #FFFFFF 56%, transparent 56.1%), linear-gradient(-34deg, #0000FF 45%, #FFFFFF 45.1%, #FFFFFF 48%, #cc0000 48.1%, #cc0000 52%, #FFFFFF 52.1%, #FFFFFF 56%, #0000FF 56%); }
+
 /*# sourceMappingURL=master.css.map */
