@@ -26,20 +26,8 @@
   background-size: 100px 100px;
   position: relative; }
 
-.japan {
-  position: relative;
-  background-color: white; }
-
-.japan::after {
-  content: "";
-  width: 150px;
-  height: 150px;
-  border-radius: 750px;
-  position: absolute;
-  background: darkred;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+.british, .star {
+  background: linear-gradient(transparent 44%, #cc0000 44%, #cc0000 56%, transparent 56%), linear-gradient(90deg, transparent 44%, #cc0000 44%, #cc0000 56%, transparent 56%), linear-gradient(transparent 40%, white 40%, white 60%, transparent 60%), linear-gradient(90deg, transparent 40%, white 40%, white 60%, transparent 60%), linear-gradient(34deg, transparent 45%, white 45%, white 48%, #cc0000 48%, #cc0000 52%, white 52%, white 56%, transparent 56%), linear-gradient(-34deg, #0055A4 45%, white 45%, white 48%, #cc0000 48%, #cc0000 52%, white 52%, white 56%, #0055A4 56%); }
 
 .france {
   border-left: 133px solid #0055A4;
@@ -117,9 +105,8 @@
   left: 180px;
   transform: rotate(20deg); }
 
-.italy {
-  position: relative;
-  background: linear-gradient(90deg, green, green 33%, white 33%, white 66%, red 66%, red 100%); }
+.tanzania {
+  background: linear-gradient(to bottom right, #009b3a 40%, gold 40%, gold 43%, black 43%, black 57%, gold 57%, gold 60%, #006aa7 60%); }
 
 .america {
   position: relative;
@@ -164,7 +151,7 @@
     width: 180px;
     height: 160px;
     content: "";
-    background: #0000FF;
+    background: #003399;
     border-radius: 50%;
     top: 50%;
     left: 50%;
@@ -188,7 +175,61 @@
       content: "\002739 ";
       text-shadow: 20px 60px white; }
 
-.british {
-  background: linear-gradient(transparent 44%, #cc0000 44.1%, #cc0000 56%, transparent 56.1%), linear-gradient(90deg, transparent 44%, #cc0000 44.1%, #cc0000 56%, transparent 56.1%), linear-gradient(transparent 40%, #FFFFFF 40.1%, #FFFFFF 60%, transparent 60.1%), linear-gradient(90deg, transparent 40%, #FFFFFF 40.1%, #FFFFFF 60%, transparent 60.1%), linear-gradient(34deg, transparent 45%, #FFFFFF 45.1%, #FFFFFF 48%, #cc0000 48.1%, #cc0000 52%, #FFFFFF 52.1%, #FFFFFF 56%, transparent 56.1%), linear-gradient(-34deg, #0000FF 45%, #FFFFFF 45.1%, #FFFFFF 48%, #cc0000 48.1%, #cc0000 52%, #FFFFFF 52.1%, #FFFFFF 56%, #0000FF 56%); }
+.namibia {
+  background: linear-gradient(to bottom right, #003399 42%, #FFFFFF 42%, #FFFFFF 45%, #de2910 45%, #de2910 55%, #FFFFFF 55%, #FFFFFF 58%, #009b3a 58%); }
+
+.namibia::before {
+  content: '\002600 \FE0E';
+  color: #fedf00;
+  position: absolute;
+  font-size: 60px;
+  top: 10px;
+  left: 30px; }
+
+.israel {
+  position: relative;
+  box-shadow: 0 45px #FFFFFF inset, 0 75px #003399 inset, 0 225px #FFFFFF inset, 0 255px #003399 inset, 0 270px #FFFFFF inset; }
+
+.israel::before {
+  content: "\002721 \FE0E";
+  color: #003399;
+  font-size: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.newzealand {
+  background: #003399; }
+
+.newzealand::before {
+  content: "✸";
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 120px;
+  left: 230px;
+  text-shadow: 50px -80px #FFFFFF, 100px -30px white, 30px 130px white; }
+
+.newzealand::after {
+  content: "✸";
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 200px;
+  left: 75px; }
+
+.star {
+  position: relative;
+  width: 200px;
+  height: 150px; }
+
+.star::before {
+  content: "✸";
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 150px;
+  left: 300px; }
 
 /*# sourceMappingURL=master.css.map */

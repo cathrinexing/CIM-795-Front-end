@@ -29,24 +29,33 @@
   position: relative;
 }
 
-.japan{
-  position: relative;
-  background-color: white;
+.british{
+    background: linear-gradient(transparent 44%, $darkred 44%, $darkred 56%, transparent 56%),
+    linear-gradient(90deg, transparent 44%, $darkred 44%, $darkred 56%, transparent 56%),
+    linear-gradient(transparent 40%, white 40%, white 60%, transparent 60%),
+    linear-gradient(90deg, transparent 40%, white 40%, white 60%, transparent 60%),
+    linear-gradient(34deg, transparent 45%, white 45%, white 48%, $darkred 48%, $darkred 52%, white 52%, white 56%, transparent 56%),
+    linear-gradient(-34deg, $darkblue 45%, white 45%, white 48%, $darkred 48%, $darkred 52%, white 52%, white 56%, $darkblue 56%);
+
 }
-
-
-
-.japan::after{
-content:"";
-  width:150px;
-  height:150px;
-  border-radius: 750px;
-  position: absolute;
-  background:darkred;
-  top:50%;
-  left:50%;
- transform: translate(-50%,-50%);
-}
+// .japan{
+//   position: relative;
+//   background-color: white;
+// }
+//
+//
+//
+// .japan::after{
+// content:"";
+//   width:150px;
+//   height:150px;
+//   border-radius: 750px;
+//   position: absolute;
+//   background:darkred;
+//   top:50%;
+//   left:50%;
+//  transform: translate(-50%,-50%);
+// }
 
 .france{
   border-left: 133px solid #0055A4;
@@ -135,11 +144,15 @@ position: relative;
    transform: rotate(20deg);
  }
 
- .italy{
-   position: relative;
-   background: linear-gradient(90deg, green, green 33%, white 33%, white 66%, red 66%, red 100%);
-
- }
+ // .italy{
+ //   position: relative;
+ //   background: linear-gradient(90deg, green, green 33%, white 33%, white 66%, $darkred 66%, $darkred 100%);
+ //
+ // }
+ .tanzania {
+  background: linear-gradient(to bottom right, $lgreen 40%, gold 40%,
+  gold 43%, black 43%, black 57%, gold 57%, gold 60%, $sblue 60%)
+}
  // .italy::after {
  //   position: absolute;
  //   border-left: 133px solid #0055A4;
@@ -247,13 +260,79 @@ position: relative;
 }
 
 
-.british{
 
-    background: linear-gradient(transparent 44%, $brightred 44.1%, $brightred 56%, transparent 56.1%),
-    linear-gradient(90deg, transparent 44%, $brightred 44.1%, $brightred 56%, transparent 56.1%),
-    linear-gradient(transparent 40%, $white 40.1%, $white 60%, transparent 60.1%),
-    linear-gradient(90deg, transparent 40%, $white 40.1%, $white 60%, transparent 60.1%),
-    linear-gradient(34deg, transparent 45%, $white 45.1%, $white 48%, $brightred 48.1%, $brightred 52%, $white 52.1%, $white 56%, transparent 56.1%),
-    linear-gradient(-34deg, $blue 45%, $white 45.1%, $white 48%, $brightred 48.1%, $brightred 52%, $white 52.1%, $white 56%, $blue 56%);
-
+.namibia {
+  background: linear-gradient(to bottom right, $blue 42%, $white 42%,
+  $white 45%, $mred 45%, $mred 55%, $white 55%, $white 58%, $lgreen 58%);
 }
+  .namibia::before {
+    content: '\002600 \FE0E';
+    color: $yellow;
+    position: absolute;
+    font-size: 60px;
+    top: 10px;
+    left: 30px;
+  }
+
+
+
+
+  .israel {
+    position: relative;
+    box-shadow: 0 45px $white inset, 0 75px $blue inset,
+     0 225px $white inset, 0 255px $blue inset, 0 270px $white inset;
+   }
+    .israel::before {
+      content: "\002721 \FE0E";
+      color: $blue;
+      font-size: 150px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+
+
+
+  .newzealand {
+    background: $blue;
+  }
+
+      .newzealand::before {
+      content: "✸";
+      color: white;
+      font-size: 40px;
+      position: absolute;
+      top: 120px;
+      left: 230px;
+     text-shadow: 50px -80px $white, 100px -30px white,30px 130px white;
+   }
+       .newzealand::after {
+       content: "✸";
+       color: white;
+       font-size: 80px;
+       position: absolute;
+       top: 200px;
+       left: 75px;
+      }
+    .star{
+      position: relative;
+      @extend .british;
+      width: 200px;
+      height: 150px;
+    }
+    .star::before{
+      content: "✸";
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 150px;
+      left: 300px;
+    }
+
+    .india{
+
+
+
+
+    }
