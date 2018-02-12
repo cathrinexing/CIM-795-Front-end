@@ -292,4 +292,27 @@
     border-left: 200px solid #003399;
     border-bottom: 150px solid transparent; }
 
+.africa {
+  background: linear-gradient(#de2910, #de2910 30%, #FFFFFF 30%, #FFFFFF 70%, #003399 70%, #003399 100%);
+  position: relative;
+  overflow: hidden; }
+  .africa:before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 150px;
+    background: #000000;
+    transform: rotate(45deg);
+    top: 75px;
+    left: -75px;
+    box-shadow: 0 0 0 20px #fecc00, 0 0 0 80px #009b3a, 0 0 0 100px #FFFFFF; }
+  .africa:after {
+    position: absolute;
+    content: "";
+    background: #009b3a;
+    width: 220px;
+    height: 60px;
+    top: 120px;
+    left: 180px; }
+
 /*# sourceMappingURL=master.css.map */

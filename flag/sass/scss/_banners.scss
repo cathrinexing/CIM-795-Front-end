@@ -397,3 +397,29 @@ position: relative;
     border-bottom: 150px solid transparent;
   }
 }
+
+.africa {
+  background: linear-gradient($mred,$mred 30%, $white 30%, $white 70%, $blue 70%,$blue 100%);
+  position: relative;
+  overflow: hidden;
+  &:before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 150px;
+    background: $black;
+    transform: rotate(45deg);
+    top:75px;
+    left: -75px;
+    box-shadow: 0 0 0 20px $gold, 0 0 0 80px $lgreen, 0 0 0 100px $white;
+  }
+  &:after {
+    position: absolute;
+    content: "";
+    background: $lgreen;
+    width: 220px;
+    height: 60px;
+    top: 120px;
+    left: 180px;
+  }
+}
