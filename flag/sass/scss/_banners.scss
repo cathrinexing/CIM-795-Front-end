@@ -131,7 +131,7 @@ position: relative;
    // top:calc(50%-6px);
    // left:calc(50%-5px);
    top:100px;
-   left:230px;
+   left:180px;
    transform: rotate(20deg);
  }
 
@@ -211,6 +211,7 @@ position: relative;
      height: 220px;
      transform: translate(-50%, -50%) rotate(30deg) skew(-30deg);
  }
+
  > div {
    overflow: hidden;
    position: absolute;
@@ -237,12 +238,15 @@ position: relative;
      color: white;
      font-size: 8px;
      position: absolute;
-     top: 55px;
+     top: 45px;
      left: 130px;
      content: "\002739 ";
-     text-shadow: 30px 60px white,
-     // 9.6px 32px white,16px 64px white,
-     //  96px 96px white,10px 10px white,-50px 10px white,
+     text-shadow: 20px 60px white,
    }
  }
+}
+
+
+.british{
+
 }

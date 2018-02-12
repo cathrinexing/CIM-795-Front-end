@@ -114,7 +114,7 @@
   color: darkred;
   font-size: 65px;
   top: 100px;
-  left: 230px;
+  left: 180px;
   transform: rotate(20deg); }
 
 .italy {
@@ -183,9 +183,9 @@
       color: white;
       font-size: 8px;
       position: absolute;
-      top: 55px;
+      top: 45px;
       left: 130px;
       content: "\002739 ";
-      text-shadow: 30px 60px white; }
+      text-shadow: 20px 60px white; }
 
 /*# sourceMappingURL=master.css.map */
