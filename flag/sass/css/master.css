@@ -374,6 +374,27 @@
     height: calc(300px / 9 * 5);
     background: linear-gradient(to bottom, transparent calc(300px / 9 * 2), white calc(300px / 9 * 2), white calc(300px / 9 * 3), transparent calc(300px / 9 * 3)), linear-gradient(to right, transparent calc(300px / 9 * 2), white calc(300px / 9 * 2), white calc(300px / 9 * 3), transparent calc(300px / 9 * 3)), #0D5EAF; }
 
+.nepal {
+  background: radial-gradient(44px at 16% 34%, #DC1038 0, #DC143C 35%, transparent 35%, transparent 100%), radial-gradient(44px at 16% 39%, white 0, white 35%, transparent 35%, transparent 100%), linear-gradient(40deg, #DC143C 30%, transparent 30%) 4px -6px, linear-gradient(33deg, #DC143C 25%, transparent 25%) 4px -54px, linear-gradient(40deg, #003893 36%, transparent 32%), linear-gradient(33deg, #003893 30%, transparent 25%) 0px -50px;
+  background-size: 180px 120px;
+  position: relative; }
+
+.nepal:before {
+  position: absolute;
+  content: "✹";
+  color: white;
+  font-size: 48px;
+  bottom: 4px;
+  left: 10px; }
+
+.nepal:after {
+  position: absolute;
+  content: "✹";
+  color: white;
+  font-size: 28px;
+  top: 36px;
+  left: 18px; }
+
 .saitkitts {
   background: linear-gradient(145deg, #009E49 35%, #FCD116 35%, #FCD116 40%, black 40%, black 60%, #FCD116 60%, #FCD116 65%, #CE1126 65%);
   position: relative; }
