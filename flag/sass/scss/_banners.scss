@@ -57,17 +57,25 @@
 //  transform: translate(-50%,-50%);
 // }
 
-.france{
-  border-left: 133px solid #0055A4;
-  border-right: 133px solid #EF4135;
-  width: 133px;
-  position: relative;
-
-}
-
+// .france{
+//   border-left: 133px solid #0055A4;
+//   border-right: 133px solid #EF4135;
+//   width: 133px;
+//   position: relative;
+//
+// }
+.guyana {
+  background: linear-gradient(149deg, #CE1126 24%, transparent 15%) 0 -150px,
+  linear-gradient(31deg, #CE1126 24%, transparent 15%) 0 -150px,
+  linear-gradient(149deg, black 26%, transparent 15%) 0  -150px,
+  linear-gradient(31deg, black 26%, transparent 15%) 0  -150px,
+  linear-gradient(159deg, #FCD116 32%, transparent 15%) 0  -150px,
+  linear-gradient(21deg, #FCD116 32%, transparent 15%) 0  -150px,
+  linear-gradient(159deg, white 34%, transparent 15%) 0  -150px,
+  linear-gradient(21deg, white 34%, transparent 15%) 0  -150px, #009E49; }
 
 .china {
-  background: red;
+  background: #CE1126;
   position: relative;
 }
 .china::before {
@@ -90,8 +98,8 @@
 }
 
 .cuba{
-  box-shadow: 0 60px blue inset, 0 120px white inset, 0 180px blue inset,
-0 240px white inset,0 300px blue inset;
+  box-shadow: 0 60px $darkblue inset, 0 120px white inset, 0 180px $darkblue inset,
+0 240px white inset,0 300px $darkblue inset;
 position: relative;
 }
 
@@ -103,7 +111,7 @@ position: relative;
   top:0;
   left:0;
   border-top:150px solid transparent;
-  border-left:200px solid red;
+  border-left:200px solid #CE1126;
   border-bottom:150px solid transparent;
 }
 .cuba:after {
@@ -129,13 +137,13 @@ position: relative;
    left:50%;
   transform: translate(-50%,-50%);
   background: transparent;
- box-shadow: -12px 0 0 11px darkred;
+ box-shadow: -12px 0 0 11px $darkred;
 }
 
  .algeria::after {
    position:absolute;
    content:"\2605";
-   color:darkred;
+   color:$darkred;
    font-size: 65px;
    // top:calc(50%-6px);
    // left:calc(50%-5px);
@@ -512,3 +520,17 @@ position: relative;
    white calc(300px / 9 * 2), white calc(300px / 9 * 3),
    transparent calc(300px / 9 * 3)), #0D5EAF; }
  }
+
+ .nepal{
+
+ }
+.saitkitts{
+
+}
+
+.saitluia{
+
+}
+.seychelles{
+
+}
