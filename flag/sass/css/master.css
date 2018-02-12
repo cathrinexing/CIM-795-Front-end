@@ -374,4 +374,32 @@
     height: calc(300px / 9 * 5);
     background: linear-gradient(to bottom, transparent calc(300px / 9 * 2), white calc(300px / 9 * 2), white calc(300px / 9 * 3), transparent calc(300px / 9 * 3)), linear-gradient(to right, transparent calc(300px / 9 * 2), white calc(300px / 9 * 2), white calc(300px / 9 * 3), transparent calc(300px / 9 * 3)), #0D5EAF; }
 
+.saitkitts {
+  background: linear-gradient(145deg, #009E49 35%, #FCD116 35%, #FCD116 40%, black 40%, black 60%, #FCD116 60%, #FCD116 65%, #CE1126 65%);
+  position: relative; }
+
+.saitkitts::before {
+  position: absolute;
+  content: "★";
+  color: white;
+  font-size: 80px;
+  transform: rotate(42deg);
+  right: 55px;
+  top: 30px; }
+
+.saitkitts::after {
+  position: absolute;
+  content: "★";
+  color: white;
+  font-size: 80px;
+  transform: rotate(42deg);
+  left: 100px;
+  top: 140px; }
+
+.saitluia {
+  background: linear-gradient(-45deg, #FCD116 14%, transparent 0) -89px -10px, linear-gradient(45deg, #FCD116 14%, transparent 0) 89px -10px, linear-gradient(-65deg, black 16%, transparent 0) -89px -10px, linear-gradient(65deg, black 16%, transparent 0) 89px -10px, linear-gradient(-65deg, white 18%, transparent 0) -89px -10px, linear-gradient(65deg, white 18%, transparent 0) 89px -10px, #66CCFF; }
+
+.seychelles {
+  background: linear-gradient(170deg, transparent 79%, #007A3D 55%), linear-gradient(160deg, transparent 65%, white 45%), linear-gradient(141deg, transparent 45%, #D62828 45%), linear-gradient(120deg, transparent 27%, #FCD856 25%), #003F87; }
+
 /*# sourceMappingURL=master.css.map */

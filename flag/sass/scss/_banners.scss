@@ -521,16 +521,72 @@ position: relative;
    transparent calc(300px / 9 * 3)), #0D5EAF; }
  }
 
- .nepal{
+ // .nepal{
+ //     background:
+ //     radial-gradient(44px at 16% 34%, #DC1038 0, #DC143C 35%, transparent 35%, transparent 100%),
+ //     radial-gradient(44px at 16% 39%, white 0, white 35%, transparent 35%, transparent 100%),
+ //      linear-gradient(40deg, #DC143C 30%, transparent 30%) 4px -6px,
+ //       linear-gradient(33deg, #DC143C 25%, transparent 25%) 4px -54px,
+ //       linear-gradient(40deg, #003893 36%, transparent 32%),
+ //       linear-gradient(33deg, #003893 30%, transparent 25%) 0px -50px;
+ //     background-size: 180px 120px;
+ //     position: relative; }
+ //
+ //   .nepal:before {
+ //     position: absolute;
+ //     content: "✹";
+ //     color: white;
+ //     font-size: 48px;
+ //     bottom: 4px;
+ //     left: 10px; }
+ //
+ //   .nepal:after {
+ //     position: absolute;
+ //     content: "✹";
+ //     color: white;
+ //     font-size: 28px;
+ //     top: 36px;
+ //     left: 18px; }
 
- }
+
 .saitkitts{
-
+  background: linear-gradient(145deg, #009E49 35%, #FCD116 35%, #FCD116 40%, black 40%, black 60%, #FCD116 60%, #FCD116 65%, #CE1126 65%);
+  position: relative;
+ }
+.saitkitts::before {
+  position: absolute;
+  content: "★";
+  color: white;
+  font-size: 80px;
+  transform: rotate(42deg);
+  right: 55px;
+  top:30px;
+}
+.saitkitts::after {
+  position: absolute;
+  content: "★";
+  color: white;
+  font-size: 80px;
+  transform: rotate(42deg);
+  left: 100px;
+  top: 140px;
 }
 
+
+
 .saitluia{
+   background: linear-gradient(-45deg, #FCD116 14%, transparent 0) -89px -10px,
+   linear-gradient(45deg, #FCD116 14%, transparent 0) 89px -10px,
+   linear-gradient(-65deg, black 16%, transparent 0) -89px -10px,
+    linear-gradient(65deg, black 16%, transparent 0) 89px -10px,
+   linear-gradient(-65deg, white 18%, transparent 0) -89px -10px,
+    linear-gradient(65deg, white 18%, transparent 0) 89px -10px, #66CCFF;
 
 }
 .seychelles{
+    background: linear-gradient(170deg, transparent 79%, #007A3D 55%),
+    linear-gradient(160deg, transparent 65%, white 45%),
+    linear-gradient(141deg, transparent 45%, #D62828 45%), 
+    linear-gradient(120deg, transparent 27%, #FCD856 25%), #003F87;
 
 }
