@@ -1,5 +1,5 @@
-.container{
-  display:flex;
+.container {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 1500px;
@@ -7,7 +7,7 @@
 }
 
 .flags {
-  width:400px;
+  width: 400px;
   height: 300px;
   border: 1px solid black;
   background-color: white;
@@ -15,28 +15,21 @@
   display: inline-block;
   margin: 30px;
   position: relative;
-
 }
 
-.argentina{
+.argentina {
   border-top: 100px solid #006847;
   border-bottom: 100px solid #CE1126;
   height: 100px;
-  background: url(../imgs/argentina.svg);
+  background: url("../imgs/argentina.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100px 100px;
   position: relative;
 }
 
-.british{
-    background: linear-gradient(transparent 44%, $darkred 44%, $darkred 56%, transparent 56%),
-    linear-gradient(90deg, transparent 44%, $darkred 44%, $darkred 56%, transparent 56%),
-    linear-gradient(transparent 40%, white 40%, white 60%, transparent 60%),
-    linear-gradient(90deg, transparent 40%, white 40%, white 60%, transparent 60%),
-    linear-gradient(34deg, transparent 45%, white 45%, white 48%, $darkred 48%, $darkred 52%, white 52%, white 56%, transparent 56%),
-    linear-gradient(-34deg, $darkblue 45%, white 45%, white 48%, $darkred 48%, $darkred 52%, white 52%, white 56%, $darkblue 56%);
-
+.british {
+  background: linear-gradient(transparent 44%, $darkred 44%, $darkred 56%, transparent 56%), linear-gradient(90deg, transparent 44%, $darkred 44%, $darkred 56%, transparent 56%), linear-gradient(transparent 40%, white 40%, white 60%, transparent 60%), linear-gradient(90deg, transparent 40%, white 40%, white 60%, transparent 60%), linear-gradient(34deg, transparent 45%, white 45%, white 48%, $darkred 48%, $darkred 52%, white 52%, white 56%, transparent 56%), linear-gradient(-34deg, $darkblue 45%, white 45%, white 48%, $darkred 48%, $darkred 52%, white 52%, white 56%, $darkblue 56%);
 }
 // .japan{
 //   position: relative;
@@ -56,7 +49,6 @@
 //   left:50%;
 //  transform: translate(-50%,-50%);
 // }
-
 // .france{
 //   border-left: 133px solid #0055A4;
 //   border-right: 133px solid #EF4135;
@@ -64,28 +56,25 @@
 //   position: relative;
 //
 // }
+
 .guyana {
-  background: linear-gradient(149deg, #CE1126 24%, transparent 15%) 0 -150px,
-  linear-gradient(31deg, #CE1126 24%, transparent 15%) 0 -150px,
-  linear-gradient(149deg, black 26%, transparent 15%) 0  -150px,
-  linear-gradient(31deg, black 26%, transparent 15%) 0  -150px,
-  linear-gradient(159deg, #FCD116 32%, transparent 15%) 0  -150px,
-  linear-gradient(21deg, #FCD116 32%, transparent 15%) 0  -150px,
-  linear-gradient(159deg, white 34%, transparent 15%) 0  -150px,
-  linear-gradient(21deg, white 34%, transparent 15%) 0  -150px, #009E49; }
+  background: linear-gradient(149deg, #CE1126 24%, transparent 15%) 0 -150px, linear-gradient(31deg, #CE1126 24%, transparent 15%) 0 -150px, linear-gradient(149deg, black 26%, transparent 15%) 0 -150px, linear-gradient(31deg, black 26%, transparent 15%) 0 -150px, linear-gradient(159deg, #FCD116 32%, transparent 15%) 0 -150px, linear-gradient(21deg, #FCD116 32%, transparent 15%) 0 -150px, linear-gradient(159deg, white 34%, transparent 15%) 0 -150px, linear-gradient(21deg, white 34%, transparent 15%) 0 -150px, #009E49;
+}
 
 .china {
   background: #CE1126;
   position: relative;
 }
+
 .china::before {
   content: "\2605";
   color: yellow;
   font-size: 90px;
   position: absolute;
-  top:0px;
+  top: 0;
   left: 10px;
 }
+
 .china::after {
   content: "\2605";
   color: yellow;
@@ -97,302 +86,285 @@
   text-shadow: 6px 45px, -30px -30px, -15px 84px;
 }
 
-.cuba{
-  box-shadow: 0 60px $darkblue inset, 0 120px white inset, 0 180px $darkblue inset,
-0 240px white inset,0 300px $darkblue inset;
-position: relative;
+.cuba {
+  box-shadow: 0 60px $darkblue inset, 0 120px white inset, 0 180px $darkblue inset, 0 240px white inset,0 300px $darkblue inset;
+  position: relative;
 }
 
-.cuba::before{
-  content:"";
-  width:0;
-  height:0;
-  position:absolute;
-  top:0;
-  left:0;
-  border-top:150px solid transparent;
-  border-left:200px solid #CE1126;
-  border-bottom:150px solid transparent;
-}
-.cuba:after {
-    content: "\2605";
-    color: white;
-    font-size: 100px;
-    position: absolute;
-    top: 80px;
-    left: 20px;
-  }
-
-.algeria{
-  background: linear-gradient(90deg,#006232, #006232 50%, white 50%,white 100%)
-;
- position: relative;}
-.algeria::before{
+.cuba::before {
+  content: "";
+  width: 0;
+  height: 0;
   position: absolute;
-  content:"";
-  width:100px;
+  top: 0;
+  left: 0;
+  border-top: 150px solid transparent;
+  border-left: 200px solid #CE1126;
+  border-bottom: 150px solid transparent;
+}
+
+.cuba:after {
+  content: "\2605";
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+}
+
+.algeria {
+  background: linear-gradient(90deg,#006232, #006232 50%, white 50%,white 100%);
+  position: relative;
+}
+
+.algeria::before {
+  position: absolute;
+  content: "";
+  width: 100px;
   height: 100px;
-   border-radius: 50px;
-   top:50%;
-   left:50%;
+  border-radius: 50px;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%,-50%);
   background: transparent;
- box-shadow: -12px 0 0 11px $darkred;
+  box-shadow: -12px 0 0 11px $darkred;
 }
 
- .algeria::after {
-   position:absolute;
-   content:"\2605";
-   color:$darkred;
-   font-size: 65px;
-   // top:calc(50%-6px);
-   // left:calc(50%-5px);
-   top:100px;
-   left:180px;
-   transform: rotate(20deg);
- }
-
- // .italy{
- //   position: relative;
- //   background: linear-gradient(90deg, green, green 33%, white 33%, white 66%, $darkred 66%, $darkred 100%);
- //
- // }
- .tanzania {
-  background: linear-gradient(to bottom right, $lgreen 40%, gold 40%,
-  gold 43%, black 43%, black 57%, gold 57%, gold 60%, $sblue 60%)
+.algeria::after {
+  position: absolute;
+  content: "\2605";
+  color: $darkred;
+  font-size: 65px;
+  // top:calc(50%-6px);
+  // left:calc(50%-5px);
+  top: 100px;
+  left: 180px;
+  transform: rotate(20deg);
 }
- // .italy::after {
- //   position: absolute;
- //   border-left: 133px solid #0055A4;
- //   border-right: 133px solid #EF4135;
- //   width: 133px;
- //   top:0px;
- //   left:200px;
- // }
-
- .america{
+// .italy{
+//   position: relative;
+//   background: linear-gradient(90deg, green, green 33%, white 33%, white 66%, $darkred 66%, $darkred 100%);
+//
+// }
+.tanzania {
+  background: linear-gradient(to bottom right, $lgreen 40%, gold 40%, gold 43%, black 43%, black 57%, gold 57%, gold 60%, $sblue 60%);
+}
+// .italy::after {
+//   position: absolute;
+//   border-left: 133px solid #0055A4;
+//   border-right: 133px solid #EF4135;
+//   width: 133px;
+//   top:0px;
+//   left:200px;
+// }
+.america {
   position: relative;
   // background: repeat-linear-gradient(180deg,
   //           #C1133D, #C1133D 50px,
   //           white 50px, white 100px);
-            box-shadow: 0 33px  #C1133D inset,
-                          0 66px white inset,
-                          0 99px  #C1133D inset,
-                          0 132px white inset,
-                          0 165px  #C1133D inset,
-                          0 199px white  inset,
-                          0 232px  #C1133D inset,
-                          0 265px white inset,
-                          0 300px  #C1133D inset;
- }
- .america::before{
-   position:absolute;
-   top: 0;
-   left: 0;
-   content:"";
-   background: #0055A4;
-   width:200px;
-   height: 165px;
- }
+  box-shadow: 0 33px #C1133D inset, 0 66px white inset, 0 99px #C1133D inset, 0 132px white inset, 0 165px #C1133D inset, 0 199px white inset, 0 232px #C1133D inset, 0 265px white inset, 0 300px #C1133D inset;
+}
 
-.america::after{
+.america::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background: #0055A4;
+  width: 200px;
+  height: 165px;
+}
+
+.america::after {
   position: absolute;
   width: 200px;
   height: 165px;
-  color:white;
-  content:
-  "★   ★   ★   ★   ★   ★
-  ★   ★   ★   ★   ★
-   ★   ★   ★   ★   ★   ★
-    ★   ★   ★   ★   ★
-    ★   ★   ★   ★   ★   ★
-    ★   ★   ★   ★   ★
-    ★   ★   ★   ★   ★   ★
-    ★   ★   ★   ★   ★
-    ★   ★   ★   ★   ★   ★";
-    font-size: 20px;
-     line-height: 84%;
-    text-align: center;
- word-wrap: normal;
-    padding-top: 10px;
+  color: white;
+  content: "★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★";
+  font-size: 20px;
+  line-height: 84%;
+  text-align: center;
+  word-wrap: normal;
+  padding-top: 10px;
 }
 
-
-.brazil{
+.brazil {
   position: relative;
   background: #009B3A;
 
- &:before {
-   background: $yellow;
-   position: absolute;
-   content: "";
-     top:50%;
-     left:50%;
-     width:220px;
-     height: 200px;
-     transform: translate(-50%, -50%) rotate(30deg) skew(-30deg);
- }
+  &:before {
+    background: $yellow;
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 220px;
+    height: 200px;
+    transform: translate(-50%, -50%) rotate(30deg) skew(-30deg);
+  }
 
- > div {
-   overflow: hidden;
-   position: absolute;
-   width: 180px;
-   height: 160px;
-   content: "";
-   background: $blue;
-   border-radius: 50%;
-   top:50%;
-   left:50%;
-   transform: translate(-50%, -50%);
-   &:before {
-     content: "";
-     z-index: 2;
-     width: 240px;
-     height: 160px;
-     border-radius: 50%;
-     position: absolute;
-     top: 60px;
-     left: -60px;
-     border: 10px solid white;
-   }
-   &:after {
-     color: white;
-     font-size: 8px;
-     position: absolute;
-     top: 45px;
-     left: 130px;
-     content: "\002739 ";
-     text-shadow: 20px 60px white,
-   }
- }
+  > div {
+    overflow: hidden;
+    position: absolute;
+    width: 180px;
+    height: 160px;
+    content: "";
+    background: $blue;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &:before {
+      content: "";
+      z-index: 2;
+      width: 240px;
+      height: 160px;
+      border-radius: 50%;
+      position: absolute;
+      top: 60px;
+      left: -60px;
+      border: 10px solid white;
+    }
+
+    &:after {
+      color: white;
+      font-size: 8px;
+      position: absolute;
+      top: 45px;
+      left: 130px;
+      content: "\002739 ";
+      text-shadow: 20px 60px white,;
+    }
+  }
 }
-
-
 
 .namibia {
-  background: linear-gradient(to bottom right, $blue 42%, $white 42%,
-  $white 45%, $mred 45%, $mred 55%, $white 55%, $white 58%, $lgreen 58%);
+  background: linear-gradient(to bottom right, $blue 42%, $white 42%, $white 45%, $mred 45%, $mred 55%, $white 55%, $white 58%, $lgreen 58%);
 }
-  .namibia::before {
-    content: '\002600 \FE0E';
-    color: $yellow;
+
+.namibia::before {
+  content: '\002600 \FE0E';
+  color: $yellow;
+  position: absolute;
+  font-size: 60px;
+  top: 10px;
+  left: 30px;
+}
+
+.israel {
+  position: relative;
+  box-shadow: 0 45px $white inset, 0 75px $blue inset, 0 225px $white inset, 0 255px $blue inset, 0 270px $white inset;
+}
+
+.israel::before {
+  content: "\002721 \FE0E";
+  color: $blue;
+  font-size: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.newzealand {
+  background: $blue;
+}
+
+.newzealand::before {
+  content: "✸";
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 120px;
+  left: 230px;
+  text-shadow: 50px -80px $white, 100px -30px white,30px 130px white;
+}
+
+.newzealand::after {
+  content: "✸";
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 200px;
+  left: 75px;
+}
+
+.star {
+  position: relative;
+  @extend .british;
+  width: 200px;
+  height: 150px;
+}
+
+.star::before {
+  content: "✸";
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 150px;
+  left: 300px;
+}
+
+.india {
+  box-shadow: 0 100px $lorange inset, 0 200px $white inset, 0 300px $lgreen inset;
+
+  &:before {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    content: "";
+    background: $white;
+    border: 8px solid $dblue;
     position: absolute;
-    font-size: 60px;
-    top: 10px;
-    left: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
-
-
-
-  .israel {
-    position: relative;
-    box-shadow: 0 45px $white inset, 0 75px $blue inset,
-     0 225px $white inset, 0 255px $blue inset, 0 270px $white inset;
-   }
-    .israel::before {
-      content: "\002721 \FE0E";
-      color: $blue;
-      font-size: 150px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-    }
-
-
-
-  .newzealand {
-    background: $blue;
+  &:after {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    content: "";
+    background: radial-gradient($dblue 20%, $white 70%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
+}
 
-      .newzealand::before {
-      content: "✸";
-      color: white;
-      font-size: 40px;
-      position: absolute;
-      top: 120px;
-      left: 230px;
-     text-shadow: 50px -80px $white, 100px -30px white,30px 130px white;
-   }
-       .newzealand::after {
-       content: "✸";
-       color: white;
-       font-size: 80px;
-       position: absolute;
-       top: 200px;
-       left: 75px;
-      }
-    .star{
-      position: relative;
-      @extend .british;
-      width: 200px;
-      height: 150px;
-    }
-    .star::before{
-      content: "✸";
-      color: white;
-      font-size: 20px;
-      position: absolute;
-      top: 150px;
-      left: 300px;
-    }
-
-    .india {
-    box-shadow: 0 100px $lorange inset, 0 200px $white inset, 0 300px $lgreen inset;
-    &:before {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      content: "";
-      background: $white;
-      border: 8px solid $dblue;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    &:after {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      content: "";
-      background: radial-gradient($dblue 20%, $white 70%);
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  }
-
-  .pakistan {
+.pakistan {
   // background: linear-gradient(90deg,#006232, #006232 50%, white 50%,white 100%)
-    position: relative;
-    box-shadow: 100px 0 white inset, 400px 0 $vdgreen inset;
-  }
-    .pakistan::before {
-      content: '\02605';
-      color: $white;
-      font-size: 80px;
-      position: absolute;
-      top: 80px;
-      left: 220px;
-      transform: rotate(35deg);
-    }
-    .pakistan::after {
-      content: '';
-      position: absolute;
-      top:30px;
-      left: 180px;
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      box-shadow: -20px 30px 0 0 white;
-    }
+  position: relative;
+  box-shadow: 100px 0 white inset, 400px 0 $vdgreen inset;
+}
 
+.pakistan::before {
+  content: '\02605';
+  color: $white;
+  font-size: 80px;
+  position: absolute;
+  top: 80px;
+  left: 220px;
+  transform: rotate(35deg);
+}
 
-  .czech {
+.pakistan::after {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 180px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: -20px 30px 0 0 white;
+}
+
+.czech {
   box-shadow: 0 150px $white inset, 0 300px $mred inset;
+
   &:before {
     content: "";
     width: 0;
@@ -407,10 +379,10 @@ position: relative;
 }
 
 .southafrica {
-  background: linear-gradient($mred,$mred 30%,
-  $white 30%, $white 70%, $blue 70%,$blue 100%);
+  background: linear-gradient($mred,$mred 30%, $white 30%, $white 70%, $blue 70%,$blue 100%);
   position: relative;
   overflow: hidden;
+
   &:before {
     position: absolute;
     content: "";
@@ -418,11 +390,11 @@ position: relative;
     height: 150px;
     background: $black;
     transform: rotate(45deg);
-    top:75px;
+    top: 75px;
     left: -75px;
-    box-shadow: 0 0 0 20px $gold, 0 0 0 80px $lgreen,
-    0 0 0 100px $white;
+    box-shadow: 0 0 0 20px $gold, 0 0 0 80px $lgreen, 0 0 0 100px $white;
   }
+
   &:after {
     position: absolute;
     content: "";
@@ -434,124 +406,108 @@ position: relative;
   }
 }
 
+.bahamas {
+  background: linear-gradient(to bottom, #00ABC9, #00ABC9 calc(100% / 3), #FAE042 calc(100% / 3), #FAE042 calc(100% / 3 * 2), #00ABC9 calc(100% / 3 * 2), #00ABC9 100%);
 
-.bahamas{
-   background: linear-gradient(to bottom, #00ABC9, #00ABC9 calc(100% / 3),
-      #FAE042 calc(100% / 3), #FAE042 calc(100% / 3 * 2),
-      #00ABC9 calc(100% / 3 * 2), #00ABC9 100%);
-      &:after {
-        content:"";
-        width: 0;
-        height: 0;
-        position: absolute;
-      border-top: 150px solid transparent;
-      border-left:200px solid black;
-      border-bottom: 150px solid transparent;
-        top: 0;
-        left: 0;
-      }
+  &:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 150px solid transparent;
+    border-left: 200px solid black;
+    border-bottom: 150px solid transparent;
+    top: 0;
+    left: 0;
+  }
 }
-
 
 .bahrain {
   background: linear-gradient(90deg, white, white 25%, #CE1126 25%, #CE1126 100%);
-  position: relative; }
+  position: relative;
+}
+
 .bahrain:before {
   position: absolute;
   content: "";
   width: 60px;
   height: 100%;
-  background: linear-gradient(154deg, white 32%, transparent 31%) 0 30px,
-  linear-gradient(24deg, white 32%, transparent 31%) 0 90px;
+  background: linear-gradient(154deg, white 32%, transparent 31%) 0 30px, linear-gradient(24deg, white 32%, transparent 31%) 0 90px;
   background-size: 60px 60px;
   left: 100px;
-  top: 0; }
+  top: 0;
+}
 
+.centralafrican {
+  position: relative;
+  background: linear-gradient(to right, transparent 0%, transparent 42%, $sred 42%, $sred 58%, transparent 58%, transparent 100%), linear-gradient(to bottom, #003082, #003082 25%, white 25%, white 50%, #289728 50%, #289728 75%, #FFCE00 75%, #FFCE00 100%);
+}
 
-  .centralafrican {
-    position: relative;
-    background: linear-gradient(to right, transparent 0%, transparent 42%,
-     $sred 42%, $sred 58%, transparent 58%, transparent 100%),
-    linear-gradient(to bottom, #003082, #003082 25%, white 25%, white 50%,
-    #289728 50%, #289728 75%, #FFCE00 75%, #FFCE00 100%);
-    }
+.centralafrican::before {
+  position: absolute;
+  content: "★";
+  top: 3px;
+  color: #FFCE00;
+  font-size: 50px;
+  left: 10px;
+}
 
-  .centralafrican::before {
-    position: absolute;
-    content: "★";
-  	top: 3px;
-    color: #FFCE00;
-    font-size: 50px;
-    left: 10px; }
+.easttimor {
+  background: linear-gradient(145deg, black 25%, transparent 15%) 0 -150px, linear-gradient(34deg, black 25%, transparent 15%) 0 -150px, linear-gradient(155deg, #FFC726 30%, transparent 15%) 0 -150px, linear-gradient(25deg, #FFC726 30%, transparent 15%) 0 -150px, #DC241F;
+  position: relative;
+}
 
+.easttimor:before {
+  position: absolute;
+  content: "★";
+  color: white;
+  font-size: 100px;
+  top: 80px;
+  left: 30px;
+  transform: rotate(115deg);
+}
 
-    .easttimor {
-      background: linear-gradient(145deg, black 25%, transparent 15%) 0 -150px,
-      linear-gradient(34deg, black 25%, transparent 15%) 0 -150px,
-      linear-gradient(155deg, #FFC726 30%, transparent 15%) 0 -150px,
-      linear-gradient(25deg, #FFC726 30%, transparent 15%) 0 -150px, #DC241F;
-      position: relative; }
-
-    .easttimor:before {
-      position: absolute;
-      content: "★";
-      color: white;
-      font-size: 100px;
-      top: 80px;
-      left: 30px;
-      transform: rotate(115deg); }
-
-
-    .greece {
-     position: relative;
-     background-image: repeating-linear-gradient(to bottom, #0D5EAF, #0D5EAF calc(300px / 9),
-      white calc(300px / 9), white calc(300px / 9 * 2));
-
+.greece {
+  position: relative;
+  background-image: repeating-linear-gradient(to bottom, #0D5EAF, #0D5EAF calc(300px / 9), white calc(300px / 9), white calc(300px / 9 * 2));
 
   &:before {
+    position: absolute;
+    content: "";
+    width: calc(300px / 9 * 5);
+    height: calc(300px / 9 * 5);
+    background: linear-gradient(to bottom, transparent calc(300px / 9 * 2), white calc(300px / 9 * 2), white calc(300px / 9 * 3), transparent calc(300px / 9 * 3)), linear-gradient(to right, transparent calc(300px / 9 * 2), white calc(300px / 9 * 2), white calc(300px / 9 * 3), transparent calc(300px / 9 * 3)), #0D5EAF;
+  }
+}
+
+.nepal {
+  background: radial-gradient(100px at 16% 30%, #DC1038 0, #DC143C 35%, transparent 35%, transparent 100%), radial-gradient(100px at 16% 35%, white 0, white 35%, transparent 35%, transparent 100%), linear-gradient(40deg, #DC143C 30%, transparent 30%) 10px -12px, linear-gradient(32deg, #DC143C 25%, transparent 25%) 10px -147px, linear-gradient(40deg, #003893 36%, transparent 32%), linear-gradient(32deg, #003893 30%, transparent 25%) 0 -140px;
+  position: relative;
+}
+
+.nepal:before {
   position: absolute;
-  content: "";
-  width: calc(300px / 9 * 5);
-  height: calc(300px / 9 * 5);
-  background: linear-gradient(to bottom,
-  transparent calc(300px / 9 * 2), white calc(300px / 9 * 2),
-   white calc(300px / 9 * 3), transparent calc(300px / 9 * 3)),
-  linear-gradient(to right, transparent calc(300px / 9 * 2),
-   white calc(300px / 9 * 2), white calc(300px / 9 * 3),
-   transparent calc(300px / 9 * 3)), #0D5EAF; }
- }
+  content: "✹";
+  color: white;
+  font-size: 80px;
+  bottom: 20px;
+  left: 50px;
+}
 
- .nepal{
-     background:
-     radial-gradient(100px at 16% 30%, #DC1038 0, #DC143C 35%, transparent 35%, transparent 100%),
-     radial-gradient(100px at 16% 35%, white 0, white 35%, transparent 35%, transparent 100%),
-      linear-gradient(40deg, #DC143C 30%, transparent 30%) 10px -12px,
-       linear-gradient(32deg, #DC143C 25%, transparent 25%) 10px -147px,
-       linear-gradient(40deg, #003893 36%, transparent 32%),
-       linear-gradient(32deg, #003893 30%, transparent 25%) 0px -140px;
-     position: relative; }
+.nepal:after {
+  position: absolute;
+  content: "✹";
+  color: white;
+  font-size: 45px;
+  top: 90px;
+  left: 50px;
+}
 
-   .nepal:before {
-     position: absolute;
-     content: "✹";
-     color: white;
-     font-size: 80px;
-     bottom: 20px;
-     left: 50px; }
-
-   .nepal:after {
-     position: absolute;
-     content: "✹";
-     color: white;
-     font-size: 45px;
-     top: 90px;
-     left: 50px; }
-
-
-.saitkitts{
+.saitkitts {
   background: linear-gradient(145deg, #009E49 35%, #FCD116 35%, #FCD116 40%, black 40%, black 60%, #FCD116 60%, #FCD116 65%, #CE1126 65%);
   position: relative;
- }
+}
+
 .saitkitts::before {
   position: absolute;
   content: "★";
@@ -559,8 +515,9 @@ position: relative;
   font-size: 80px;
   transform: rotate(42deg);
   right: 55px;
-  top:30px;
+  top: 30px;
 }
+
 .saitkitts::after {
   position: absolute;
   content: "★";
@@ -571,25 +528,13 @@ position: relative;
   top: 140px;
 }
 
-
-
-.saitluia{
-   background: linear-gradient(-45deg, #FCD116 14%, transparent 0) -200px -50px,
-   linear-gradient(45deg, #FCD116 14%, transparent 0) 200px -50px,
-   linear-gradient(-65deg, black 16%, transparent 0) -200px -50px,
-    linear-gradient(65deg, black 16%, transparent 0) 200px -50px,
-   linear-gradient(-65deg, white 18%, transparent 0) -200px -50px,
-    linear-gradient(65deg, white 18%, transparent 0) 200px -50px, #66CCFF;
-
-}
-.seychelles{
-    background: linear-gradient(170deg, transparent 79%, #007A3D 55%),
-    linear-gradient(160deg, transparent 65%, white 45%),
-    linear-gradient(141deg, transparent 45%, #D62828 45%),
-    linear-gradient(120deg, transparent 27%, #FCD856 25%), #003F87;
-
+.saitluia {
+  background: linear-gradient(-45deg, #FCD116 14%, transparent 0) -200px -50px, linear-gradient(45deg, #FCD116 14%, transparent 0) 200px -50px, linear-gradient(-65deg, black 16%, transparent 0) -200px -50px, linear-gradient(65deg, black 16%, transparent 0) 200px -50px, linear-gradient(-65deg, white 18%, transparent 0) -200px -50px, linear-gradient(65deg, white 18%, transparent 0) 200px -50px, #66CCFF;
 }
 
+.seychelles {
+  background: linear-gradient(170deg, transparent 79%, #007A3D 55%), linear-gradient(160deg, transparent 65%, white 45%), linear-gradient(141deg, transparent 45%, #D62828 45%), linear-gradient(120deg, transparent 27%, #FCD856 25%), #003F87;
+}
 // .demo{
 //
 //     background: linear-gradient(170deg, transparent 79%, #007A3D 55%),
