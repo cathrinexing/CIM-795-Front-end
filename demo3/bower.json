@@ -1,0 +1,23 @@
+{
+  "name": "demo3",
+  "homepage": "https://github.com/cathrinexing/CIM-795-Front-end",
+  "authors": [
+    "xing liu <31227004+cathrinexing@users.noreply.github.com>"
+  ],
+  "description": "de",
+  "main": "de",
+  "keywords": [
+    "i"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
