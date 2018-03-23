@@ -1,0 +1,169 @@
+.main-head {
+  grid-area: header;
+  background: #54AB88;
+  // justify-content: center;
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+height:100%;
+
+  /* height: 45px; */
+}
+/* header.main-head{
+  height: 45px;
+margin-bottom: 0;
+} */
+.mymodal {
+  background: white;
+  padding: 10px;
+  width: 450px;
+  display:none;
+}
+
+.content {
+   padding: 10px;
+  grid-area: content;
+  display: none;
+  border: 1px solid #95A1AA;
+
+}
+
+.main-nav {
+  font-size: 16px;
+  line-height: 30px;
+  grid-area: nav;
+  padding: 10px;
+  display: none;
+  border: 1px solid #95A1AA;
+  background-color: #95A1AA;
+  color: white;
+}
+
+.side {
+  padding: 0px;
+  grid-area: sidebar;
+  display: none;
+  border: 1px solid #95A1AA;
+}
+
+.side1{
+  padding-top: 0;
+  padding-left:10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.main {
+  grid-area: main;
+  padding: 10px;
+  display: none;
+}
+
+
+
+/* Mobile Layout */
+.wrapper1 {
+  .content {
+    display: block;
+  }
+  display: grid;
+  padding: 10px;
+  grid-gap: 0;
+  grid-template-areas: "header" "content";
+}
+
+.wrapper2 {
+  .side {
+    display: block;
+  }
+  display: grid;
+  padding: 10px;
+  grid-gap: 0;
+
+  grid-template-areas:
+  "header"
+  "sidebar";
+}
+
+.wrapper3 {
+  display: grid;
+
+  .main1 {
+    display: block;
+  }
+
+  padding: 10px;
+  grid-gap: 0;
+  grid-template-areas: "header"
+   "main";
+}
+/* tablet layout */
+@media (min-width: 500px) {
+  .main-nav {
+    display: block;
+  }
+  .main1{
+    display: none;
+  }
+  .wrapper1 {
+    grid-template-columns: 4fr 6fr;
+    grid-template-areas:
+    "nav header"
+    "nav content";
+  }
+
+  .wrapper2 {
+    .side {
+      display: block;
+    }
+    grid-template-columns: 4fr 6fr;
+    grid-template-areas: "nav header" "nav sidebar";
+  }
+
+  .wrapper3 {
+    .side {
+      display: block;
+    }
+
+.pop{
+  display:none;
+}
+
+
+    grid-template-columns: 4fr 6fr;
+
+    grid-template-areas: "nav header" "nav sidebar" ;
+  }
+}
+/* Desktop layout */
+@media (min-width: 768px) {
+  .side {
+    display: block;
+  }
+
+  .content {
+    display: block;
+  }
+  .pop{
+    display:none;
+  }
+
+
+  .wrapper1 {
+    grid-template-columns: 3fr 5fr 5fr;
+    grid-template-areas: "nav header header " "nav content sidebar";
+  }
+
+  .wrapper2 {
+    grid-template-columns: 3fr 5fr 5fr;
+    grid-template-areas: "nav header header " "nav content sidebar" ;
+  }
+
+  .wrapper3 {
+    grid-template-columns: 3fr 5fr 5fr;
+    grid-template-areas: "nav header header " "nav content sidebar";
+  }
+
+/*   nav ul {
+  flex-direction: column;
+} */
+}
