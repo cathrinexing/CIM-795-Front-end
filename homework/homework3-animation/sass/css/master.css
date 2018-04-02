@@ -1,0 +1,57 @@
+body {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 1rem;
+  /* background:#2c333a; */ }
+
+div {
+  width: 80%;
+  margin: 2rem auto;
+  text-align: center;
+  perspective: 800px; }
+
+.section {
+  display: flex;
+  justify-content: space-between; }
+
+.jsl {
+  border: 1px solid grey; }
+
+.animation {
+  border: 1px solid grey; }
+
+.areas {
+  border: 1px solid black; }
+
+.selector {
+  border: 1px solid grey; }
+
+.sass {
+  border: 1px solid grey; }
+
+.grid {
+  border: 1px solid grey; }
+
+/* .classname{
+  grid-area: name;
+}
+
+.professor{
+  grid-area:professor;
+}
+
+.focus{
+  grid-area:fo;
+
+}
+
+.wrapper{
+  disaplay:grid;
+  padding:30px;
+  grid-gap:0;
+  grid-template-areas:
+  "name name"
+  "professor fo"
+
+} */
+
+/*# sourceMappingURL=master.css.map */
