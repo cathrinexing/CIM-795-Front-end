@@ -1,7 +1,7 @@
 body {
   font-family: 'Alfa Slab One', cursive;
-  font-size: 1rem;
- background:#2c333a; }
+  font-size: 3rem;
+  background: #2c333a; }
 
 div {
   width: 80%;
@@ -16,7 +16,7 @@ div {
 .jsl {
   border: 1px solid grey; }
 
-.animation {
+.anim {
   border: 1px solid grey; }
 
 .areas {
