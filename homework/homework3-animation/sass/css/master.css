@@ -1,5 +1,5 @@
 body {
-  font-family: 'Alfa Slab One', cursive;
+  /*   font-family: 'Alfa Slab One', cursive; */
   font-size: 1rem;
   background: #2c333a; }
 
@@ -8,11 +8,13 @@ h3 {
 
 h2 {
   font-size: 2rem;
-  color: yellow; }
+  color: yellow;
+  font-family: 'Alfa Slab One', cursive; }
 
 .focus div {
   font-size: 1.5rem;
-  color: white; }
+  color: white;
+  font-family: 'Alfa Slab One', cursive; }
 
 div {
   width: 80%;
@@ -90,7 +92,7 @@ path {
   from {
     opacity: 0;
     transform: translate(-400px, 400px); }
-  20% {
+  60% {
     opacity: 0.5;
     transform: translate(-150, 150px); }
   100% {
