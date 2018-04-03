@@ -1,57 +1,121 @@
 body {
   font-family: 'Alfa Slab One', cursive;
-  font-size: 3rem;
+  font-size: 1rem;
   background: #2c333a; }
+
+h3 {
+  color: white; }
+
+h2 {
+  font-size: 2rem;
+  color: yellow; }
+
+.focus div {
+  font-size: 1.5rem;
+  color: white; }
 
 div {
   width: 80%;
-  margin: 2rem auto;
+  margin: 1rem auto;
   text-align: center;
   perspective: 800px; }
+
+.areas div {
+  border: 1px solid grey; }
 
 .section {
   display: flex;
   justify-content: space-between; }
 
-.jsl {
-  border: 1px solid grey; }
+/* .jsl {
+  border: 1px solid grey;
+}
 
-.anim {
-  border: 1px solid grey; }
-
+.animation {
+  border: 1px solid grey;
+} */
 .areas {
   border: 1px solid black; }
 
+/*
 .selector {
-  border: 1px solid grey; }
+  border: 1px solid grey;
+}
 
 .sass {
-  border: 1px solid grey; }
+  border: 1px solid grey;
+}
 
 .grid {
-  border: 1px solid grey; }
-
-/* .classname{
-  grid-area: name;
-}
-
-.professor{
-  grid-area:professor;
-}
-
-.focus{
-  grid-area:fo;
-
-}
-
-.wrapper{
-  disaplay:grid;
-  padding:30px;
-  grid-gap:0;
-  grid-template-areas:
-  "name name"
-  "professor fo"
-
+  border: 1px solid grey;
 } */
+path {
+  stroke: #fff;
+  fill: #fff;
+  stroke-dasharray: 1200;
+  opacity: 10;
+  animation: front 1.5s cubic-bezier(0, 0.85, 0.83, 0.67); }
+
+@keyframes front {
+  0% {
+    opacity: 0;
+    fill: none;
+    stroke-dashoffset: 1200; }
+  20% {
+    opacity: 10;
+    fill: none;
+    stroke-dashoffset: 1200; }
+  80% {
+    fill: rgba(255, 255, 255, 0); }
+  100% {
+    opacity: 10;
+    fill: white;
+    stroke-dashoffset: 0; } }
+.professor {
+  animation: pro 1s 1.5s cubic-bezier(0, 0.85, 0.83, 0.67);
+  animation-fill-mode: both; }
+
+@keyframes pro {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }
+.focus h2 {
+  animation: focus 1s 2.5s cubic-bezier(0, 0.85, 0.83, 0.67);
+  animation-fill-mode: both; }
+
+@keyframes focus {
+  from {
+    opacity: 0;
+    transform: translate(-400px, 400px); }
+  20% {
+    opacity: 0.5;
+    transform: translate(-150, 150px); }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0); } }
+.areas {
+  animation: area 1s 3.5s;
+  animation-fill-mode: both; }
+
+@keyframes area {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(30deg);
+    transform: scale(0.1) rotate(30deg);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom; }
+  50% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg); }
+  70% {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg); }
+  to {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
 
 /*# sourceMappingURL=master.css.map */
