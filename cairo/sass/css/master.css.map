@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAQ;EACN,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,eAAe;EACvB,gBAAgB,EAAE,KAAK;EACvB,aAAa,EAAE,KAAK;EAEpB,MAAM,EAAE,IAAI;EACZ,QAAQ,EAAE,QAAQ",
+"sources": ["../scss/_style.scss"],
+"names": [],
+"file": "master.css"
+}
