@@ -1,12 +1,22 @@
 .title1 {
+  font-size: 35px;
   height: 150px;
   background-color: pink;
   text-align: center;
-  position: relative; }
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .container {
-  height: 500px;
+  height: 800px;
   background-color: #00ABC9;
+  text-align: center;
+  position: relative; }
+
+.left {
+  height: 500px;
+  background-color: yellow;
   text-align: center;
   position: relative; }
 
