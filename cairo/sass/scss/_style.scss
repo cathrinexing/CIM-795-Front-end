@@ -8,17 +8,34 @@ text-align: center;
   align-items: center;
   justify-content: center;
 }
-
+.p1{
+  height: 400px;
+  background-color:white;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .container{
-  height: 800px;
+  height: 500px;
+  background-color: yellow;
+text-align: center;
+  position: relative;
+  display: grid;
+  grid-template-columns: 4fr 5fr;
+}
+
+.left {
+  height: 500px;
   background-color: #00ABC9;
 text-align: center;
   position: relative;
 }
 
-.left {
+.right  {
   height: 500px;
-  background-color: yellow;
+  background-color: #FFF1A3;
 text-align: center;
   position: relative;
 }
