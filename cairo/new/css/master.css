@@ -28,9 +28,9 @@ margin:auto;
   position: relative;
   justify-content: center;
   align-items: center;
-/*   display: grid; */
-/*   grid-template-rows: 1fr 5fr; */
-  /*   grid-template-columns: 5fr 5fr; */
+ display: grid;
+/*  grid-template-rows: 1fr 5fr;  */
+  /*  grid-template-columns: 2fr 5fr; */
 }
 .container1 {
   height: 150px;
@@ -47,7 +47,9 @@ margin:auto;
 }
 .container2 {
   height: auto;
-    width: 70%;
+  padding:auto;
+margin:auto;
+    width: 60%;
 /*  background-color: #b3cde3; */
   text-align: center;
   position: relative;
@@ -81,7 +83,7 @@ background-color: #00ABC9;
 
  }
 .left {
-  height: 750px;
+  height: auto;
   /* background-color: #00ABC9; */
   padding-left: 50px;
   padding-right: 30px;
@@ -89,7 +91,7 @@ background-color: #00ABC9;
   position: relative; }
 
 .right {
-  height: 750px;
+  height: auto;
   /* background-color: #FFF1A3; */
   padding-left: 30px;
   padding-right: 50px;
