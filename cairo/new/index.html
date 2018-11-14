@@ -30,7 +30,7 @@
     </div> -->
   <!--  <div class="left"> -->
 
-  
+
   <img src="img/scaleall.svg" alt="scaleall">
      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
 <div class="flourish-embed" data-src="visualisation/143439"></div><script src="https://public.flourish.studio/resources/embed.js"></script>  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
@@ -104,17 +104,17 @@
     <div class="">
       <h2>TOP 5 Countres Search in the World</h2>
 
-      <img src="img/car.png"  class="clickp" alt="car"  height="95" width="95" >
-      <img src="img/house.png"  class="clickp" alt="car"  height="95" width="95">
+      <img id="car" src="img/car.png"  class="clickp" alt="car"  height="95" width="95" >
+      <img id="house" src="img/house.png"  class="clickp" alt="car"  height="95" width="95">
       <img src="img/apartment.png"  class="clickp" alt="car"  height="95" width="95">
       <img src="img/equipment.png" class="clickp" alt="car"  height="95" width="95">
       <img src="img/company.png" class="clickp" alt="car"  height="95" width="95">
       <img src="img/uniform.png" class="clickp" alt="car"  height="95" width="95">
       <img src="img/je.png" class="clickp"alt="car"  height="95" width="95">
-      <img src="img/carworld.png" class="fivebig"  alt="car"  height="500" width="500">
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
 
 
+      <div id="world"><img src="img/carworld.png" class="fivebig"  alt="car"  height="500" width="500"></div>
+      <p id="worldText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
 
     </div>
 
@@ -126,6 +126,32 @@
 
 </script> -->
      <script src="d3.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+     <script>
+      $(document).ready(function(){
+        //jquery code in here
+
+        $("#car").click(function(){
+          // what do you want to do when you click the car image
+          $("#world").html('<img src="img/houseworld.png" class="fivebig"  alt="car"  height="500" width="500">');
+          $("#worldText").html("car");
+
+        });
+
+        $("#house").click(function(){
+          // what do you want to do when you click the car image
+          $("#world").html('<img src="img/houseworld.png" class="fivebig"  alt="car"  height="500" width="500">');
+          $("#worldText").html("house");
+
+        });
+
+
+
+      //end of document ready
+      });
+
+     </script>
 <!--     <script>
   d3.select(".p1")
 </script> -->
