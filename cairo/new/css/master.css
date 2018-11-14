@@ -98,7 +98,14 @@ background-color: #00ABC9;
   text-align: center;
   position: relative;
  }
+.fivebig{
 
+  margin-top: 50px;
+}
+
+.clickp{
+  margin: 10px;
+}
  p{
 
    padding-bottom: 80px;
