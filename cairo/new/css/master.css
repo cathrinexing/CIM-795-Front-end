@@ -1,4 +1,5 @@
 .title1 {
+font-family: "Avenir";
   font-size: 75px;
   height: 250px;
   background-color: pink;
@@ -16,7 +17,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: serif; }
+font-family: "Times New Roman", Times, serif; }
+
 
 .container {
   height: auto;
