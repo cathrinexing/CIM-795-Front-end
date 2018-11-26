@@ -34,20 +34,16 @@
   <img src="img/scaleall.svg" alt="scaleall">
      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
 
-     <section id="trend"><div  class="flourish-embed" data-src="story/20206"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
-     </section>
+     <div  class="flourish-embed" data-src="story/20206"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+
 <div class="button">
-  <div class="button1" >car</div>
-  <div class="button1">Others</div>
-  <div  class="button1">Uniform & Jewerly</div>
+  <div id="carline"class="button1" >car</div>
+  <div  id="nocarline"class="button1">Others</div>
+  <div  id ="last2" class="button1">Uniform & Jewerly</div>
+</div>
 
-</div
-
-
-
-<section id="trend"><div class="flourish-embed" data-src="visualisation/143439"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
-
-</section>
+<div id="trend">
+</div>
 <p id="trendText">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
 
 
@@ -57,7 +53,7 @@
 
 <div class="flourish-embed" data-src="visualisation/153360"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
 <div class="flourish-embed" data-src="visualisation/153361"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, </p>
+
 <div class="flourish-embed" data-src="visualisation/153362"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
     <!--    </div>
      <div class="right"> -->
@@ -157,6 +153,16 @@
       $(document).ready(function(){
 
         //jquery code in here
+
+        //trendline data function
+        $("#other").click(function(){
+          // what do you want to do when you click the car image
+          $("#trend").html('<img src="img/otherline.png" class="fivebig"  alt="car"  height="500" width="500">');
+);
+          $("#trendText").html("Christmas Island,Caribbean Netherlands,U.S. Virgin Islands,Turks and Caicos Islands and Aruba are among the top 5 car rental search interest worlwide.");
+
+        });
+
 
 
       //us data fuction
