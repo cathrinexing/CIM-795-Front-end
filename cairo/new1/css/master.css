@@ -1,0 +1,134 @@
+.title1 {
+font-family: "Avenir";
+  font-size: 75px;
+  height: 250px;
+  background-color: pink;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.p1 {
+  height: 600px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+font-family: "Times New Roman", Times, serif; }
+
+
+.container {
+  height: auto;
+/*   background-color: yellow; */
+  padding:auto;
+margin:auto;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+ display: grid;
+/*  grid-template-rows: 1fr 5fr;  */
+  /*  grid-template-columns: 2fr 5fr; */
+}
+.container1 {
+  height: 150px;
+
+ background-color: #b3cde3;
+
+  text-align: center;
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+/*   grid-template-rows: 1fr 5fr; */
+
+}
+.container2 {
+  height: auto;
+  padding:auto;
+margin:auto;
+    width: 50%;
+/*  background-color: #b3cde3; */
+  text-align: center;
+  position: relative;
+
+  align-items: center;
+  justify-content: center;
+/*   grid-template-rows: 1fr 5fr; */
+
+}
+
+/* .up {
+  height: 150px;
+background-color: #00ABC9;
+  text-align: center;
+  position: relative; }
+
+  .down{
+    height: 750px;
+  background-color: yellow;
+    text-align: center;
+    position: relative;
+  }
+ */
+
+ .flourish-embed{
+
+   position: relative;
+    text-align: center;
+   align-items: center;
+   justify-content: center;
+
+ }
+.left {
+  height: auto;
+  /* background-color: #00ABC9; */
+  padding-left: 50px;
+  padding-right: 30px;
+  text-align: center;
+  position: relative; }
+
+.right {
+  height: auto;
+  /* background-color: #FFF1A3; */
+  padding-left: 30px;
+  padding-right: 50px;
+  text-align: center;
+  position: relative;
+ }
+.fivebig{
+
+  margin-top: 50px;
+}
+
+.button {
+  display: inline-block;
+
+}
+
+.button1{
+  display: inline-block;
+  width:150px;
+  height: 30px;
+  border:1px solid #000;
+  margin: 20px;
+  padding-top: 10px;
+
+
+}
+.clickp{
+  margin: 10px;
+}
+
+ p{
+
+   padding-bottom: 80px;
+   text-align: left;
+  position: relative;
+ }
+
+/*# sourceMappingURL=master.css.map */
