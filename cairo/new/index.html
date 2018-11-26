@@ -84,16 +84,16 @@
       <div class="">
           <h2>TOP 5 State Search in the U.S</h2>
           <img id="car1"src="img/car.png" class="clickp" alt="car"  height="95" width="95">
-          <img src="img/house.png"  class="clickp" alt="car"  height="95" width="95">
-          <img src="img/apartment.png"  class="clickp" alt="car"  height="95" width="95">
-          <img src="img/equipment.png" class="clickp"  alt="car"  height="95" width="95">
-          <img src="img/company.png"  class="clickp" alt="car"  height="95" width="95">
-          <img src="img/uniform.png" class="clickp" alt="car"  height="95" width="95">
-          <img src="img/je.png"  class="clickp" alt="car"  height="95" width="95">
-        
+          <img id="house1" src="img/house.png"  class="clickp" alt="car"  height="95" width="95">
+          <img id="apartment1" src="img/apartment.png"  class="clickp" alt="car"  height="95" width="95">
+          <img id="equipment1" src="img/equipment.png" class="clickp"  alt="car"  height="95" width="95">
+          <img id="company1" src="img/company.png"  class="clickp" alt="car"  height="95" width="95">
+          <img id="uniform1" src="img/uniform.png" class="clickp" alt="car"  height="95" width="95">
+          <img id="je1" src="img/je.png"  class="clickp" alt="car"  height="95" width="95">
+
 
           <div id="us"><img src="img/carus.png" class="fivebig"  alt="car"  height="500" width="500"></div>
-          <p id="usText"> Christmas Island,Caribbean Netherlands,U.S. Virgin Islands,Turks and Caicos Islands and Aruba are among the top 5 car rental search interest worlwide.
+          <p id="usText"> Hawaii, Alaska, Nevada, Florida and colorado are among the top 5 car rental search interest States In the U.S..
 
 
       </div>
@@ -137,12 +137,7 @@
         //jquery code in here
 
 
-        // $("#car1").click(function(){
-        //   // what do you want to do when you click the car image
-        //   $("#world").html('<img src="img/houseworld.png" class="fivebig"  alt="car"  height="500" width="500">');
-        //   $("#worldText").html("car");
-        //
-        // });
+      //us data fuction
 
         $("#car1").click(function(){
           // what do you want to do when you click the car image
@@ -150,6 +145,55 @@
           $("#usText").html("Christmas Island,Caribbean Netherlands,U.S. Virgin Islands,Turks and Caicos Islands and Aruba are among the top 5 car rental search interest worlwide.");
 
         });
+
+        $("#house1").click(function(){
+        // what do you want to do when you click the car image
+        $("#us").html('<img src="img/houseus.png" class="fivebig"  alt="house1"  height="500" width="500">');
+        $("#usText").html("Christmas Island,Caribbean Netherlands,U.S. Virgin Islands,Turks and Caicos Islands and Aruba are among the top 5 car rental search interest worlwide.");
+
+      });
+
+              $("#apartment1").click(function(){
+                // what do you want to do when you click the car image
+                $("#us").html('<img src="img/apartmentus.png" class="fivebig"  alt="apartment"  height="500" width="500">');
+                $("#usText").html("Cook Island, Marshall Islands, Cyprus, Monaco and Malta are among the top 5 apartment rental search interest worlwide");
+
+              });
+
+              $("#equipment1").click(function(){
+                // what do you want to do when you click the car image
+                $("#us").html('<img src="img/equipmentus.png" class="fivebig"  alt="equipment"  height="500" width="500">');
+                $("#usText").html("American Samoa, Cayman Islands, Turks and Caicos Islands, United states and U.S. Virgin Islands are among the top 5 equipment rental search interest worlwide");
+
+              });
+
+              $("#company1").click(function(){
+                // what do you want to do when you click the car image
+                $("#us").html('<img src="img/companyus.png" class="fivebig"  alt="company"  height="500" width="500">');
+                $("#usText").html("American Samoa, Turks and Caicos Islands, Sint Maarten, Saint Lucia and British Virgin Islands are among the top 5 company rental search interest worlwide");
+
+              });
+
+              $("#uniform1").click(function(){
+                // what do you want to do when you click the car image
+                $("#us").html('<img src="img/uniformus.png" class="fivebig"  alt="uniform"  height="500" width="500">');
+                $("#usText").html("Canada,Singapore, Saint Helena and United states are among the top 4 uniform rental search interest worlwide");
+
+              });
+
+              $("#je1").click(function(){
+              // what do you want to do when you click the car image
+              $("#us").html('<img src="img/jeus.png" class="fivebig"  alt="je"  height="500" width="500">');
+              $("#usText").html("Aruba and United States are among the top 2 equipment rental search interest worlwide");
+
+            });
+
+
+
+
+
+
+        // world data function
 
 
         $("#car").click(function(){
