@@ -10,6 +10,7 @@ font-family: "Avenir";
   justify-content: center; }
 
 .p1 {
+font-family: "Avenir";
   height: 600px;
   background-color: white;
   text-align: center;
@@ -101,6 +102,7 @@ background-color: #00ABC9;
   text-align: center;
   position: relative;
  }
+ 
 .fivebig{
 
   margin-top: 50px;
@@ -126,10 +128,20 @@ background-color: #00ABC9;
 }
 
  p{
+   font-family: "Avenir";
+    font-size: 20px;
 
-   padding-bottom: 80px;
+   padding-bottom: 50px;
    text-align: left;
   position: relative;
  }
 
+
+.img{
+  position: relative;
+   text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin:auto;
+}
 /*# sourceMappingURL=master.css.map */
