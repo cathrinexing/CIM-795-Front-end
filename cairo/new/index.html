@@ -47,8 +47,8 @@
          <p>From the map, we can only tell the countries with big territory. The search interest in car rental mainly focus on the North America and Australia, as it is shown in the map. Search interest in house rental gather in Australia, North America and India.
            However, there are many other countries that have higher search interest index but cannot be seen. The enlarged maps below can identify the top five countries of each rental categories.
          </p>
+         <div class="flourish-embed" data-src="visualisation/171914"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
 
-      <div class="flourish-embed" data-src="visualisation/147494"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
 
       <div class="">
 
@@ -134,9 +134,9 @@
 
 
       <h1>Rental in U.S. </h1>
+      <div class="flourish-embed" data-src="story/21951"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
 
 
-      <div class="flourish-embed" data-src="visualisation/147446"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
       <p>Seven rental categories are shown separately. Each category has different seasonal pattern. Highlighted lines are the average monthly index, while the grey line are the data from 2004 to 2018. For the car rental, the search interest goes up from June and remain to August, perhaps it due to the summer holiday. Families usually plan trip during these period. </p>
 
 
@@ -159,6 +159,19 @@
         //jquery code in here
 
         //trendline data function
+        $("#carline").click(function(){
+          // what do you want to do when you click the car image
+          $("#trend").html('<img src="img/ccarw.svg" class="fivebig"  alt="car"  height="400" width="800">');
+          $("#trendText").html("Cxxxxd,Caribbean Netherlands,U.S. Virgin Islands,Turks and Caicos Islands and Aruba are among the top 5 car rental search interest worlwide.");
+
+        });
+        $("#nocarline").click(function(){
+          // what do you want to do when you click the car image
+          $("#trend").html('<img src="img/cuniform.svg" class="fivebig"  alt="car"  height="400" width="800">');
+          $("#trendText").html("Cxxxxd,Caribbean Netherlands,U.S. Virgin Islands,Turks and Caicos Islands and Aruba are among the top 5 car rental search interest worlwide.");
+
+        });
+
 
 
 
