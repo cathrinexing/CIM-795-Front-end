@@ -1,5 +1,9 @@
 .title1 {
-font-family: "Avenir";
+
+   font-family: goodlife-brush, sans-serif;
+   font-style: normal;
+   font-weight: 400;
+
   font-size: 75px;
   height: 250px;
   background-color: pink;
@@ -10,7 +14,11 @@ font-family: "Avenir";
   justify-content: center; }
 
 .p1 {
-font-family: "Avenir";
+
+     font-family: goodlife-brush, sans-serif;
+     font-style: normal;
+     font-weight: 400;
+
   height: 600px;
   background-color: white;
   text-align: center;
@@ -52,7 +60,7 @@ width:100%;
   height: auto;
   padding:auto;
 margin:auto;
-    width: 50%;
+    width: 100%;
 /*  background-color: #b3cde3; */
   text-align: center;
   position: relative;
@@ -137,6 +145,7 @@ padding-top: 50px;
    text-align: left;
   position: relative;
  }
+
 
  h1{
 

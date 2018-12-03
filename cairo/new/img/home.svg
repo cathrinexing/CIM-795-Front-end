@@ -48,15 +48,13 @@
 	.st42{fill:#9B9B9B;}
 	.st43{font-size:48px;}
 	.st44{font-size:72px;}
-	.st45{font-family:'MyriadPro-Regular';}
-	.st46{font-size:12px;}
 </style>
 <g>
 	<g>
 		<g>
 			<g>
 				
-					<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -310.1119 997.2964)" class="st0" cx="1048.8" cy="873" rx="119.8" ry="119.8"/>
+					<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -310.1115 997.3008)" class="st0" cx="1048.8" cy="873" rx="119.8" ry="119.8"/>
 				<polygon class="st1" points="949.7,860.3 966.4,839.6 1050.1,839.6 1050.1,860.3 				"/>
 				<polygon class="st1" points="1150.1,860.3 1133.3,839.6 1049.8,839.6 1049.8,860.3 				"/>
 				<rect x="953.2" y="860.3" class="st2" width="193.1" height="64.3"/>
@@ -102,7 +100,7 @@
 				<rect x="541.9" y="448.4" class="st10" width="19.8" height="34.1"/>
 				<rect x="545.3" y="452.4" class="st11" width="13.2" height="3.9"/>
 				
-					<rect x="550" y="455.4" transform="matrix(5.921128e-03 -1 1 5.921128e-03 86.7266 1011.2198)" class="st11" width="3.9" height="13.2"/>
+					<rect x="550" y="455.4" transform="matrix(5.921024e-03 -1 1 5.921024e-03 86.7292 1011.2549)" class="st11" width="3.9" height="13.2"/>
 				<rect x="545.3" y="467.9" class="st11" width="13.2" height="3.9"/>
 				<rect x="540.6" y="447.4" class="st12" width="21.2" height="2.5"/>
 				<rect x="597.7" y="448.4" class="st13" width="19.8" height="34.1"/>
@@ -614,7 +612,7 @@
 				<rect x="893.9" y="223.4" class="st10" width="19.8" height="34.1"/>
 				<rect x="897.3" y="227.4" class="st11" width="13.2" height="3.9"/>
 				
-					<rect x="902.1" y="230.4" transform="matrix(5.921128e-03 -1 1 5.921128e-03 661.6881 1139.557)" class="st11" width="3.9" height="13.2"/>
+					<rect x="902.1" y="230.3" transform="matrix(5.921024e-03 -1 1 5.921024e-03 661.7821 1139.5328)" class="st11" width="3.9" height="13.2"/>
 				<rect x="897.3" y="242.9" class="st11" width="13.2" height="3.9"/>
 				<rect x="892.6" y="222.4" class="st12" width="21.2" height="2.5"/>
 				<rect x="949.7" y="223.4" class="st13" width="19.8" height="34.1"/>
@@ -1024,7 +1022,7 @@
 				<rect x="611.9" y="904.4" class="st10" width="19.8" height="34.1"/>
 				<rect x="615.3" y="908.4" class="st11" width="13.2" height="3.9"/>
 				
-					<rect x="620" y="911.4" transform="matrix(5.921128e-03 -1 1 5.921128e-03 -299.7137 1534.564)" class="st11" width="3.9" height="13.2"/>
+					<rect x="620" y="911.4" transform="matrix(5.921024e-03 -1 1 5.921024e-03 -299.7472 1534.5718)" class="st11" width="3.9" height="13.2"/>
 				<rect x="615.3" y="923.9" class="st11" width="13.2" height="3.9"/>
 				<rect x="610.6" y="903.4" class="st12" width="21.2" height="2.5"/>
 				<rect x="667.7" y="904.4" class="st13" width="19.8" height="34.1"/>
@@ -1179,7 +1177,7 @@
 				<rect x="1527.9" y="904.4" class="st10" width="19.8" height="34.1"/>
 				<rect x="1531.3" y="908.4" class="st11" width="13.2" height="3.9"/>
 				
-					<rect x="1536.1" y="911.3" transform="matrix(5.921128e-03 -1 1 5.921128e-03 611.0418 2450.5295)" class="st11" width="3.9" height="13.2"/>
+					<rect x="1536.1" y="911.3" transform="matrix(5.921024e-03 -1 1 5.921024e-03 611.0435 2450.5015)" class="st11" width="3.9" height="13.2"/>
 				<rect x="1531.3" y="923.9" class="st11" width="13.2" height="3.9"/>
 				<rect x="1526.6" y="903.4" class="st12" width="21.2" height="2.5"/>
 				<rect x="1583.7" y="904.4" class="st13" width="19.8" height="34.1"/>
@@ -1339,7 +1337,7 @@
 				<rect x="831.3" y="916.5" class="st10" width="17" height="29.3"/>
 				<rect x="834.2" y="920" class="st11" width="11.4" height="3.3"/>
 				
-					<rect x="838.4" y="922.5" transform="matrix(5.921232e-03 -1 1 5.921232e-03 -93.1066 1762.7451)" class="st11" width="3.3" height="11.4"/>
+					<rect x="838.4" y="922.5" transform="matrix(5.921128e-03 -1 1 5.921128e-03 -93.0815 1762.748)" class="st11" width="3.3" height="11.4"/>
 				<rect x="834.2" y="933.2" class="st11" width="11.4" height="3.3"/>
 				<rect x="830.2" y="915.6" class="st12" width="18.2" height="2.1"/>
 				<rect x="879.3" y="916.5" class="st13" width="17" height="29.3"/>
@@ -1599,5 +1597,4 @@
 <g>
 	<text transform="matrix(1 0 0 1 636.2534 328.1958)" class="st39 st40">     Rental Trip</text>
 </g>
-<text transform="matrix(1 0 0 1 563 292)" class="st45 st46">Lorem ipsum</text>
 </svg>
