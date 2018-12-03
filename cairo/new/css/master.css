@@ -137,10 +137,12 @@ background-color: #00ABC9;
 
  p{
  font-family: "Avenir";
+color: 	#808080;
+
 
 /*    font-family: " Merriweather"; */
     font-size: 20px;
-padding-top: 50px;
+
    padding-bottom: 20px;
    text-align: left;
   position: relative;
@@ -155,10 +157,21 @@ padding-top: 50px;
    font-weight: 400;
    font-size: 40px;
 
-   text-align: left;
+   text-align: center;
   position: relative;
  }
 
+ h2{
+
+
+    font-family: "Avenir";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+
+   text-align: center;
+  position: relative;
+ }
 
 .img{
   position: relative;
