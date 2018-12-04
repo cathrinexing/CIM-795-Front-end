@@ -1,52 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E0B19E;}
-	.st1{display:none;}
-	.st2{fill:none;}
-	.st3{font-family:'GoodlifeBrush';}
-	.st4{font-size:15.4569px;}
-	.st5{opacity:0.8;fill:#E0B19E;}
-	.st6{opacity:0.6;fill:#E0B19E;}
-	.st7{opacity:0.4;fill:#E0B19E;}
-	.st8{opacity:0.2;fill:#E0B19E;}
+	.st1{fill:none;}
+	.st2{font-family:'GoodlifeBrush';}
+	.st3{font-size:15.4569px;}
 </style>
-<g>
+<g id="Layer_2">
 	<path vector-effect="non-scaling-stroke" class="st0" d="M150,140l7.2-7.2l5.4-6.7l-4.7-5.9l-0.7-4.1l8.8-4.2l11.3-1.3l4.4,1.5
 		l9.3-2.7l7.3-7.2l2.8-0.8l-2.4-7.3l2.2-0.9l-4.2-6.1l5-4.5l7.6-12.8l4.4-4.4l24.9-6.5l1.4,8.7l2.4,3.5l-0.1,9.2l2.8,5.6l-0.5,3.3
-		l3.5,1.5L252,108l-0.4,15.4l0.5,0.7l3,16.8l1.5,1.5l-3.4,3.4l1.7,2.1v0.1l-1.7,4.1l6.2-4.5l12.2-3.6l3.7-4.6l4.9,2.2l-4.1,4
-		L266,153l-13.4,5.9l-2.3-3.3l0.7-6.8l-14.9-4.9l-7.4-4.2l-0.9-4.2l-5.6-3.3l-71.2,14L150,140z"/>
+		l3.5,1.5l3.9,17.3l-0.4,15.4l0.5,0.7l3,16.8l1.5,1.5l-3.4,3.4l1.7,2.1l0,0.1l-1.7,4.1l6.2-4.5l12.2-3.6l3.7-4.6l4.9,2.2l-4.1,4
+		l-10.1,7.4l-13.4,5.9l-2.3-3.3l0.7-6.8l-14.9-4.9l-7.4-4.2l-0.9-4.2l-5.6-3.3l-71.2,14L150,140z"/>
 </g>
-<g id="Layer_4" class="st1">
+<g id="Layer_1">
 </g>
-<rect x="171.7" y="185.2" class="st2" width="99.4" height="34.8"/>
-<text transform="matrix(1 0 0 1 171.7034 196.8777)" class="st3 st4">Connecticut</text>
-<rect x="175.7" y="113.2" class="st2" width="99.4" height="34.8"/>
-<text transform="matrix(1 0 0 1 175.7034 124.8777)" class="st3 st4">New York</text>
-<rect x="358.1" y="67.8" class="st2" width="302.5" height="247.6"/>
-<text transform="matrix(1 0 0 1 358.0508 79.4727)" class="st4" style="font-family:'Avenir-Roman';">New York</text>
-<text transform="matrix(1 0 0 1 358.0508 97.9727)" class="st4" style="font-family:'Avenir-Roman';">Connecticut</text>
-<text transform="matrix(1 0 0 1 358.0508 135.0727)" class="st4" style="font-family:'Avenir-Roman';">Massachusetts</text>
-<text transform="matrix(1 0 0 1 358.0508 172.1727)" class="st4" style="font-family:'Avenir-Roman';">District of Columbia</text>
-<text transform="matrix(1 0 0 1 358.0508 209.2727)" class="st4" style="font-family:'Avenir-Roman';">New Jersey</text>
-<text transform="matrix(1 0 0 1 358.0508 246.3727)" class="st4" style="font-family:'Avenir-Roman';">Vermont</text>
-<rect x="28.2" y="216.6" class="st2" width="135.8" height="34.5"/>
-<text transform="matrix(1 0 0 1 28.1588 228.3261)" class="st3 st4">Massachusetts</text>
-<path vector-effect="non-scaling-stroke" class="st5" d="M203.4,214l27.1-6.2l0.1,0.3L234,221l-0.5,2.4l-8.1,3.4l-8.3,2.4l-10.8,8.6
-	v0.1v-0.1l-1.7-2.1l3.4-3.4l-1.5-1.5L203.4,214z"/>
-<path vector-effect="non-scaling-stroke" class="st6" d="M104.3,263.5l2.9-2.8l1.5,2.4L104.3,263.5z M94.3,264.8l3.1-4l3.2,2.1
-	L94.3,264.8z M47.7,244.3l12.8-2.8l18.6-4.1l3.2-4.6l3.3-1.2l1.7,3.8l3.2,0.4l-3.8,3.1l-1.3,6.1l2.5-0.9l5.1,3.8l4.6,6.4l7-2.5
-	l-1-4.4l3.1,6.1l-6.2,3l-4.9,4l-0.5-3.6l-6.3,6l-2.2-3.5l-0.7-0.7l-2.1-1.1l-2.2-5l-6.6,2l-0.1-0.3l-27.1,6.2l-0.5-0.7L47.7,244.3z"
-	/>
-<path vector-effect="non-scaling-stroke" class="st7" d="M52.8,175.9l1.6-4.3l9.8-10.2l-6.9-4.6l-3.7-5.4l1.6-4.6l-1.8-1.9l5.2-10.1
-	l14.9,4.9l-0.7,6.8l-1.8,1.9h-0.1l-0.7,4.3l4.5,0.2l1.1,2.6l0.8,12l-2.3,7.9l-3.7,5.3l-1.8,6.4l-2.8,1.8l0.4-5.1l-4.6,0.3l-7.7-4.5
-	l-1-3.1L52.8,175.9z"/>
-<rect x="23.9" y="118.1" class="st2" width="105.3" height="21.1"/>
-<text transform="matrix(1 0 0 1 23.9155 129.8276)" class="st3 st4">New Jersey</text>
-<rect x="77.7" y="20.5" class="st2" width="65.3" height="31.5"/>
-<text transform="matrix(1 0 0 1 77.7231 50.6982)" class="st3 st4">Vermont</text>
-<path vector-effect="non-scaling-stroke" class="st8" d="M87.8,61.8l28.2-7.2l0.1,4.4l0,0l1.7,7l-2.8,4.1l-3.2,1.7l1.1,4.1l-0.7,8.5
-	l-1.6,4.8L112,101l-0.3,4.8l2.2,2.3l-12.8,2.8l-3.9-17.3l-3.5-1.5l0.5-3.3l-2.8-5.6l0.1-9.2l-2.4-3.5L87.8,61.8z"/>
+<g id="Layer_4">
+	
+		<image style="overflow:visible;" width="1732" height="404" xlink:href="../Screen Shot 2018-12-03 at 9.00.49 PM.png"  transform="matrix(0.5 0 0 0.5 -292 326)">
+	</image>
+</g>
+<g id="Layer_3">
+	<rect x="171.7" y="185.2" class="st1" width="99.4" height="34.8"/>
+	<text transform="matrix(1 0 0 1 171.7034 194.9451)" class="st2 st3">Connecticut</text>
+	<rect x="175.7" y="113.2" class="st1" width="99.4" height="34.8"/>
+	<text transform="matrix(1 0 0 1 175.7034 122.9451)" class="st2 st3">New York</text>
+	<rect x="358.1" y="67.8" class="st1" width="302.5" height="247.6"/>
+	<text transform="matrix(1 0 0 1 358.0508 79.4727)"><tspan x="0" y="0" class="st3" style="font-family:'Avenir-Roman';">New York</tspan><tspan x="0" y="18.5" class="st3" style="font-family:'Avenir-Roman';">Connecticut</tspan><tspan x="0" y="55.6" class="st3" style="font-family:'Avenir-Roman';">Massachusetts</tspan><tspan x="0" y="92.7" class="st3" style="font-family:'Avenir-Roman';">District of Columbia</tspan><tspan x="0" y="129.8" class="st3" style="font-family:'Avenir-Roman';">New Jersey</tspan><tspan x="0" y="166.9" class="st3" style="font-family:'Avenir-Roman';">Vermont</tspan></text>
+	<rect x="28.2" y="216.6" class="st1" width="135.8" height="34.5"/>
+	<text transform="matrix(1 0 0 1 28.1588 226.3935)" class="st2 st3">Massachusetts</text>
+	<path vector-effect="non-scaling-stroke" class="st0" d="M203.4,214l27.1-6.2l0.1,0.3l3.4,12.9l-0.5,2.4l-8.1,3.4l-8.3,2.4
+		l-10.8,8.6l0,0.1l0-0.1l-1.7-2.1l3.4-3.4l-1.5-1.5L203.4,214z"/>
+	<path vector-effect="non-scaling-stroke" class="st0" d="M104.3,263.5l2.9-2.8l1.5,2.4L104.3,263.5z M94.3,264.8l3.1-4l3.2,2.1
+		L94.3,264.8z M47.7,244.3l12.8-2.8l18.6-4.1l3.2-4.6l3.3-1.2l1.7,3.8l3.2,0.4l-3.8,3.1l-1.3,6.1l2.5-0.9l5.1,3.8l4.6,6.4l7-2.5
+		l-1-4.4l3.1,6.1l-6.2,3l-4.9,4l-0.5-3.6l-6.3,6l-2.2-3.5l-0.7-0.7l-2.1-1.1l-2.2-5l-6.6,2l-0.1-0.3l-27.1,6.2l-0.5-0.7L47.7,244.3z
+		"/>
+	<path vector-effect="non-scaling-stroke" class="st0" d="M52.8,175.9l1.6-4.3l9.8-10.2l-6.9-4.6l-3.7-5.4l1.6-4.6l-1.8-1.9
+		l5.2-10.1l14.9,4.9l-0.7,6.8l-1.8,1.9l-0.1,0l-0.7,4.3l4.5,0.2l1.1,2.6l0.8,12l-2.3,7.9l-3.7,5.3l-1.8,6.4l-2.8,1.8l0.4-5.1
+		l-4.6,0.3l-7.7-4.5l-1-3.1L52.8,175.9z"/>
+	<rect x="23.9" y="118.1" class="st1" width="105.3" height="21.1"/>
+	<text transform="matrix(1 0 0 1 23.9155 127.8955)" class="st2 st3">New Jersey</text>
+	<rect x="77.7" y="20.5" class="st1" width="65.3" height="31.5"/>
+	<text transform="matrix(1 0 0 1 77.7231 48.7661)" class="st2 st3">Vermont</text>
+	<path vector-effect="non-scaling-stroke" class="st0" d="M87.8,61.8l28.2-7.2l0.1,4.4l0,0l1.7,7l-2.8,4.1l-3.2,1.7l1.1,4.1
+		l-0.7,8.5l-1.6,4.8L112,101l-0.3,4.8l2.2,2.3l-12.8,2.8l-3.9-17.3l-3.5-1.5l0.5-3.3l-2.8-5.6l0.1-9.2l-2.4-3.5L87.8,61.8z"/>
+</g>
 </svg>
