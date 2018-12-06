@@ -56,13 +56,13 @@
 <text transform="matrix(1 0 0 1 370 78.72)" style="font-family:'MyriadPro-Semibold'; font-size:12px;">Louisiana</text>
 <text transform="matrix(1 0 0 1 370 93.12)" style="font-family:'MyriadPro-Semibold'; font-size:12px;">Tennessee</text>
 <rect x="185.3" y="134.1" class="st10" width="146.2" height="34.8"/>
-<text transform="matrix(1 0 0 1 185.334 164.3177)" class="st11 st9">South Carolina</text>
+<text transform="matrix(1 -2.726965e-03 2.726965e-03 1 178.7443 164.4705)" class="st11 st9">1. South Carolina</text>
 <rect x="175.8" y="86.6" class="st10" width="146.2" height="34.8"/>
-<text transform="matrix(1 0 0 1 175.8414 98.3067)" class="st11 st9">Tennessee</text>
+<text transform="matrix(1 0 0 1 175.8414 98.3067)" class="st11 st9">5. Tennessee</text>
 <rect x="20.5" y="20.7" class="st10" width="146.2" height="34.8"/>
-<text transform="matrix(1 0 0 1 20.4623 50.9059)" class="st11 st9">North Carolina</text>
+<text transform="matrix(1 0 0 1 19.9627 44.4109)" class="st11 st9">3. North Carolina</text>
 <rect x="17.9" y="180.5" class="st10" width="146.2" height="34.8"/>
-<text transform="matrix(1 0 0 1 17.9414 210.7779)" class="st11 st9">Louisiana</text>
+<text transform="matrix(1 0 0 1 11.4464 240.7549)" class="st11 st9">4. Louisiana</text>
 <rect x="118.7" y="208.9" class="st10" width="45.5" height="22"/>
-<text transform="matrix(1 0 0 1 118.6938 220.5795)" class="st11 st9">idaho</text>
+<text transform="matrix(1 0 0 1 118.6938 220.5795)" class="st11 st9">2. idaho</text>
 </svg>

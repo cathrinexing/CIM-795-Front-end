@@ -4,10 +4,10 @@
 	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#AB8B93;}
-	.st1{opacity:0.8;fill:#AB8B93;}
-	.st2{opacity:0.6;fill:#AB8B93;}
-	.st3{opacity:0.4;fill:#AB8B93;}
-	.st4{opacity:0.2;fill:#AB8B93;}
+	.st1{opacity:0.8;fill:#AB8B93;enable-background:new    ;}
+	.st2{opacity:0.6;fill:#AB8B93;enable-background:new    ;}
+	.st3{opacity:0.4;fill:#AB8B93;enable-background:new    ;}
+	.st4{opacity:0.2;fill:#AB8B93;enable-background:new    ;}
 	.st5{display:none;}
 	.st6{fill:none;}
 	.st7{font-family:'GoodlifeBrush';}
@@ -34,18 +34,18 @@
 <path vector-effect="non-scaling-stroke" class="st3" d="M10.8,123.8l22.1-3.6l8.6,3.6l2-1.7l6.4,3.8l7.3-4.1h4.5l6.6-7.3l11.7-6.8
 	l4.9,29.8l-2.3,1.7l2.1,5.9l-1.4,5.5l-0.2,8.6l-5.5,8.2h-3.8l-3.1,3.5l-2.6,9.6l-3.1-2.9l-2.3,5.7l1.2,4.2l-1.7,3.1l-4.7,1.7
 	l-4.8-3.1l-1.5-3.7l-6.6,4.5l-3.8-1.8l-2.7,2l-3.6-2.5l-5.9-0.2l-2.7-4.8L23,181l-5.8,0.9l-2.7-25.1L10.8,123.8z"/>
-<path vector-effect="non-scaling-stroke" class="st4" d="M60.2,44.6L71.4,36l1,6l71.2-14l5.6,3.3l0.9,4.2l7.4,4.2l-5.2,10.1l1.8,1.9
-	l-1.6,4.6l3.7,5.4l6.9,4.6l-9.8,10.2l-0.2-0.1l-3-0.1l-2.7,3.3L85.9,91.8l-17.5,3L65,74.4L60.2,44.6z"/>
+<path vector-effect="non-scaling-stroke" class="st4" d="M64.9,46.3l11.2-8.6l1,6l71.2-14l5.6,3.3l0.9,4.2l7.4,4.2L157,51.5l1.8,1.9
+	l-1.6,4.6l3.7,5.4l6.9,4.6L158,78.2l-0.2-0.1l-3-0.1l-2.7,3.3L90.6,93.5l-17.5,3l-3.4-20.4L64.9,46.3z"/>
 <g id="Layer_4" class="st5">
 </g>
 <rect x="208.7" y="70.2" class="st6" width="99.4" height="34.8"/>
-<text transform="matrix(1 0 0 1 208.7034 81.8777)" class="st7 st8">Michigan</text>
+<text transform="matrix(1 0 0 1 208.7034 81.8777)" class="st7 st8">2. Michigan</text>
 <rect x="102.9" y="214.5" class="st6" width="113.3" height="46.2"/>
-<text transform="matrix(1 0 0 1 102.8756 226.1363)" class="st7 st8">Indiana</text>
+<text transform="matrix(1 0 0 1 102.8756 226.1363)" class="st7 st8">3. Indiana</text>
 <rect x="65.9" y="54.5" class="st6" width="113.3" height="46.2"/>
-<text transform="matrix(1 0 0 1 65.8756 66.1363)" class="st7 st8">Pennsylvania</text>
-<rect x="26.5" y="152.5" transform="matrix(1 -3.410640e-03 3.410640e-03 1 -0.5986 0.1589)" class="st6" width="39.6" height="46.2"/>
-<text transform="matrix(1 0 0 1 26.4227 164.1426)" class="st7 st8">Ohio</text>
+<text transform="matrix(1 0 0 1 65.8756 66.1363)" class="st7 st8">5. Pennsylvania</text>
+<rect x="26.5" y="152.5" transform="matrix(1 -3.410620e-03 3.410620e-03 1 -0.5986 0.1589)" class="st6" width="39.6" height="46.2"/>
+<text transform="matrix(1 0 0 1 26.4227 164.1426)" class="st7 st8">4. Ohio</text>
 <rect x="358.1" y="67.8" class="st6" width="302.5" height="247.6"/>
 <text transform="matrix(1 0 0 1 358.0508 79.4727)" class="st8" style="font-family:'Avenir-Roman';">Kentucky</text>
 <text transform="matrix(1 0 0 1 358.0508 97.9727)" class="st8" style="font-family:'Avenir-Roman';">Michigin</text>
@@ -53,5 +53,5 @@
 <text transform="matrix(1 0 0 1 358.0508 135.0727)" class="st8" style="font-family:'Avenir-Roman';">Ohio</text>
 <text transform="matrix(1 0 0 1 358.0508 153.6727)" class="st8" style="font-family:'Avenir-Roman';">Pennsylvania</text>
 <rect x="138.8" y="255.3" class="st6" width="96.3" height="34.5"/>
-<text transform="matrix(1 0 0 1 138.7632 266.9746)" class="st7 st8">Kentucky</text>
+<text transform="matrix(1 0 0 1 125.815 271.3835)" class="st7 st8">1. Kentucky</text>
 </svg>

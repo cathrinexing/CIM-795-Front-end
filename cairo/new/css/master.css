@@ -44,7 +44,7 @@ margin:auto;
   /*  grid-template-columns: 2fr 5fr; */
 }
 .container1 {
-  height: 150px;
+  height: 100px;
 width:100%;
  background-color: #b3cde3;
 
@@ -141,7 +141,7 @@ color: 	#808080;
 
 
 /*    font-family: " Merriweather"; */
-    font-size: 20px;
+    font-size: 18px;
 
 
    text-align: left;
@@ -171,6 +171,29 @@ color: 	#808080;
 
    text-align: center;
   position: relative;
+ }
+
+ h3{
+
+ font-family: futura-pt, sans-serif;
+
+ font-weight:500;
+
+ font-style: normal;
+   font-size: 23px;
+   text-align: center;
+  position: relative;
+ }
+
+ h4{
+
+   font-family: "Avenir";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+   text-align: center;
+  position: relative;
+  color: 	#808080;
  }
 
 .img{
