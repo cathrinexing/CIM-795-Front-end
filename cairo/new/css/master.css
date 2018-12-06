@@ -61,7 +61,7 @@ width:100%;
   padding:auto;
 margin:auto;
     width: 100%;
-/*  background-color: #b3cde3; */
+height:100%;
   text-align: center;
   position: relative;
 
@@ -190,7 +190,7 @@ color: 	#808080;
    font-family: "Avenir";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
    text-align: center;
   position: relative;
   color: 	#808080;
