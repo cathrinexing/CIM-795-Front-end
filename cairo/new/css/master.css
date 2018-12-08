@@ -13,6 +13,13 @@
   align-items: center;
   justify-content: center; }
 
+span{
+    font-size: 20px;
+    color: pink;
+    font-weight: 800;
+}
+
+
 .p1 {
 
      font-family: goodlife-brush, sans-serif;
@@ -204,5 +211,9 @@ color: 	#808080;
   margin:auto;
 }
 
+.scaleall{
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+}
 
 /*# sourceMappingURL=master.css.map */
