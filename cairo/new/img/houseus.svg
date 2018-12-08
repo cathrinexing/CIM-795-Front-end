@@ -96,11 +96,11 @@
 	c0.1-0.2,0.2-0.3,0.2-0.3s0.5-1,0.7-2.1c0-0.5,0.1-1,0.3-1.5c0.2-0.9,0.5-1.6,1.3-2.1c1.1-0.7,1.6-2.5,1.6-2.5l0.6-0.6l-0.4-1.5
 	C280.5,176.2,281.6,176,281.8,175.3z"/>
 <rect x="163.5" y="243.3" class="st4" width="113.3" height="46.2"/>
-<text transform="matrix(1 0 0 1 134.8133 231.6365)" class="st5 st6 st7">Oklahoma</text>
+<text transform="matrix(1 0 0 1 149.8013 231.6365)" class="st5 st6 st7">Oklahoma</text>
 <rect x="364.2" y="239.3" class="st4" width="113.3" height="46.2"/>
 <text transform="matrix(1 0 0 1 225.293 159.338)" class="st5 st6 st7">Arkansas</text>
 <rect x="47" y="255.6" class="st4" width="113.3" height="46.2"/>
-<text transform="matrix(1 0 0 1 16.5355 272.0814)" class="st5 st6 st8">3. </text>
+<text transform="matrix(1 0 0 1 22.156 272.0814)" class="st5 st6 st8">3. </text>
 <text transform="matrix(1 0 0 1 53.8355 272.0814)" class="st5 st6 st7">Hawaii</text>
 <rect x="89.2" y="446.2" class="st4" width="113.3" height="46.2"/>
 <text transform="matrix(1 0 0 1 68.8258 122.5508)" class="st5 st6 st9">1. </text>
@@ -108,7 +108,7 @@
 <g id="Layer_3">
 </g>
 <text transform="matrix(1 0 0 1 58.6109 16.0757)" class="st10 st6 st11">House Rental Interest</text>
-<text transform="matrix(1 0 0 1 182.7377 132.7185)" class="st5 st6 st9">2. </text>
+<text transform="matrix(1 0 0 1 190.2317 134.592)" class="st5 st6 st9">2. </text>
 <text transform="matrix(1 0 0 1 215.2377 132.7185)" class="st5 st6 st7">Florida</text>
 <path class="st12" d="M264.7,136.1L264.7,136.1h-0.1v0.1l0,0l0.1,0.1l0.1,0.1v-0.1L264.7,136.1L264.7,136.1z M263.5,136.8
 	L263.5,136.8l0.1,0.1l0.1-0.1H263.5L263.5,136.8z M264.1,120.9L264,121v0.1l0.3,0.1h0.1l0.1-0.1V121h-0.1h-0.1L264.1,120.9
@@ -263,7 +263,7 @@
 	 M245.5,137.1L245.5,137.1L245.5,137.1L245.5,137.1z M245.7,136.9L245.7,136.9L245.7,136.9L245.7,136.9L245.7,136.9L245.7,136.9
 	L245.7,136.9L245.7,136.9z M245.6,137.2L245.6,137.2L245.6,137.2L245.6,137.2z"/>
 <rect x="145.5" y="248.8" class="st4" width="80.5" height="61.3"/>
-<text transform="matrix(1 0 0 1 145.4532 267.7357)" class="st6 st9">4.</text>
+<text transform="matrix(1 0 0 1 125.4692 230.8902)" class="st6 st9">4.</text>
 <rect x="201.7" y="180.5" class="st4" width="81.8" height="72.2"/>
-<text transform="matrix(1 0 0 1 201.6641 199.3877)" class="st6 st9">5.</text>
+<text transform="matrix(1 0 0 1 200.415 162.5422)" class="st6 st9">5.</text>
 </svg>
