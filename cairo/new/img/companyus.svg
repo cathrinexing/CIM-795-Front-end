@@ -15,28 +15,30 @@
 	.st9{font-size:15.4569px;}
 	.st10{fill:none;}
 	.st11{font-family:'GoodlifeBrush';}
+	.st12{fill:#757575;}
+	.st13{font-size:18px;}
+	.st14{font-size:30px;}
 </style>
-<path vector-effect="non-scaling-stroke" class="st0" d="M194.8,179.8l8.4-4.4l0,0l4-1.3l19.6-2l4.8,3.5l0.1,2.3l17.7-2.7l21.3,15.3
-	l-4.1,3.1l-3.3,5.7l-0.6,6.3l-2.2,3.7h-2.8l-0.4,2.6l-5.8,7l-7.4,4.1l1,2.6l-2.8,1.7l-3.3,5l-3.9-0.9l-2.6-6.7l-1.7-1.5l-0.1-0.1
-	l0.1,0.1l-0.1-0.1l-2.3-2.3l0,0l-2.2-5.9l-3.8-1.6l-4.4-3.9l-0.1-2.3l-4.9-2.6l-1.2-2.3l-5.5-3.1l-6.7-9.8h-3l-5.1-4L194.8,179.8z"
-	/>
-<path vector-effect="non-scaling-stroke" class="st1" d="M120,169.7l0.1-8.2l11.2-49.2l12.5,2.7l-4.2,19.4l3.1,6.2l-1.4,4.8l4.8,4.7
-	l3.4,8.6l3.2,3l0.3,2l3.9,0.8l-1.6,2.4l-3.1,8.6l0.6,3.9l-2.4,1.1l-0.7,4.2l2.6,2.4l5.5-3.8l2.1,2.4l-0.3,3.6l1.9,6.4l1.3,1.4
-	l-0.7,3.8l4.1,2.6l2.1,7.8l1.7-1.4l5.3,1.7l1.8-2.1l2.3,1.3l8.4,0.6l0.8-2.8l2.2-0.1l3.1,5.6l-7.6,48.1l-42.7-7.4l-42.2-8.9
-	l7.8-34.9l3.3-6.3l-3.4-2.7l-0.4-2.9l4.2-6l1.7-0.4l2.3-4.5l7.6-10.1l-1.1-3.5l-2-1.2L120,169.7z"/>
-<path vector-effect="non-scaling-stroke" class="st2" d="M14.1,96.4L14.1,96.4l1.1-3.2l3.5-3.6l4.4-0.7l3.5-3.6l3.7-1.5l2.6-4.6h2.8
-	l5.8-4.6l2.8,0.3l3.7-6.3l0.4-3.7l21.4-2.5l27.7-4.8l40.4-8.3l-1.1,2.5l1.5,3.6l-1.8,2.5l-9.3,5.9l5.6-1l2.8-1.8l3.3,1.4l1.4-2.1
-	l3.6,5l-5.3,8.5l-13.4-0.3l8.2,1.7l-0.4,4.4l-2.2,4.2l4.5-3.8l3.3,0.5l-3.1,6.2l-9.5,2.6l-5.8,6.6l-3.2,5.6l-0.8,6.6l-2.2-0.8
-	l-7,2.4l-21.6-15l-17.7,2.7l-0.1-2.3l-4.9-3.6l-19.6,2l-4,1.3l0,0l-8.4,4.4L11.6,102l-0.1-4.7L14.1,96.4z"/>
-<path vector-effect="non-scaling-stroke" class="st3" d="M44.7,222.7l1.7-1.2l3.7,1.4l-1.2,1.5L44.7,222.7z M9,156.1l47-1.4l1.8,2.1
-	l-1.4,2.9l1.4,5.6L61,168l-4.1,3.9l2.7-0.4l-5.3,6.1l-1,5.8l-1.5,0.6l0.2,5l-2.1,0.3l1.5,3.9l-1.2,1.4l31.5-1.8l-0.5,3.6l0,0
+<path vector-effect="non-scaling-stroke" class="st0" d="M28.5,64l8.4-4.4l0,0l4-1.3l19.6-2l4.8,3.5l0.1,2.3l17.7-2.7l21.3,15.3
+	l-4.1,3.1L97,83.5l-0.6,6.3l-2.2,3.7h-2.8L91,96.1l-5.8,7l-7.4,4.1l1,2.6l-2.8,1.7l-3.3,5l-3.9-0.9l-2.6-6.7l-1.7-1.5l-0.1-0.1
+	l0.1,0.1l-0.1-0.1l-2.3-2.3l0,0l-2.2-5.9l-3.8-1.6l-4.4-3.9l-0.1-2.3l-4.9-2.6l-1.2-2.3L40,83.3l-6.7-9.8h-3l-5.1-4L28.5,64z"/>
+<path vector-effect="non-scaling-stroke" class="st1" d="M201.1,107.6l0.1-8.2l11.2-49.2l12.5,2.7l-4.2,19.4l3.1,6.2l-1.4,4.8
+	l4.8,4.7l3.4,8.6l3.2,3l0.3,2l3.9,0.8l-1.6,2.4l-3.1,8.6l0.6,3.9l-2.4,1.1l-0.7,4.2l2.6,2.4l5.5-3.8l2.1,2.4l-0.3,3.6l1.9,6.4
+	l1.3,1.4l-0.7,3.8l4.1,2.6l2.1,7.8l1.7-1.4l5.3,1.7l1.8-2.1l2.3,1.3l8.4,0.6l0.8-2.8l2.2-0.1l3.1,5.6l-7.6,48.1l-42.7-7.4l-42.2-8.9
+	l7.8-34.9l3.3-6.3l-3.4-2.7l-0.4-2.9l4.2-6l1.7-0.4l2.3-4.5l7.6-10.1l-1.1-3.5l-2-1.2L201.1,107.6z"/>
+<path vector-effect="non-scaling-stroke" class="st2" d="M33.1,195.3L33.1,195.3l1.1-3.2l3.5-3.6l4.4-0.7l3.5-3.6l3.7-1.5l2.6-4.6
+	h2.8l5.8-4.6l2.8,0.3l3.7-6.3l0.4-3.7l21.4-2.5l27.7-4.8l40.4-8.3l-1.1,2.5l1.5,3.6l-1.8,2.5l-9.3,5.9l5.6-1l2.8-1.8l3.3,1.4
+	l1.4-2.1l3.6,5l-5.3,8.5l-13.4-0.3l8.2,1.7l-0.4,4.4l-2.2,4.2l4.5-3.8l3.3,0.5l-3.1,6.2l-9.5,2.6l-5.8,6.6l-3.2,5.6l-0.8,6.6
+	l-2.2-0.8l-7,2.4l-21.6-15l-17.7,2.7l-0.1-2.3l-4.9-3.6l-19.6,2l-4,1.3l0,0l-8.4,4.4l-19.1,2.8l-0.1-4.7L33.1,195.3z"/>
+<path vector-effect="non-scaling-stroke" class="st3" d="M74.7,275l1.7-1.2l3.7,1.4l-1.2,1.5L74.7,275z M39,208.4l47-1.4l1.8,2.1
+	l-1.4,2.9l1.4,5.6l3.2,2.7l-4.1,3.9l2.7-0.4l-5.3,6.1l-1,5.8l-1.5,0.6l0.2,5l-2.1,0.3l1.5,3.9l-1.2,1.4l31.5-1.8l-0.5,3.6l0,0
 	l0.4,4.9l0,0l5,7.3l-5,5l4.2,1l2.2-2.5l3.9,1.9l-2.8,3.9l-4.1,1.3l3,4.9l3.4-0.4l5,4.6l-3.4,1.2l-2.6,3.2l1.9-4.9l-1.9,1.1l-6.8-4.8
 	l-3.5-1.2l-1,5.1l-3,2.5l-3.8-4.8l-6.1,5.9l-2.8-2.2l-5.5-1l-1.6-5.1l-1.7,0.9l-3.1-5.2l-3.9,0.9l0.3-2.4l-5.2,2.4l0.8,1.9l-3.7,1.9
-	l-5.8-1.1l-8.9-3.1l-5,0.2l-6.2,1.7l-1.5-2.5l3.7-4.8l-1-9.4l3-5.6l0.7-4.1l-2.9-7.2l-2.8-4l0.7-2l-4.2-5.6L9,156.1z"/>
-<path vector-effect="non-scaling-stroke" class="st4" d="M164.5,93.4l2-2.7l-1.9-2l2.7-0.5l-0.4-4.8l0.8-0.1l1.1-0.1l21.2-1.6
+	l-5.8-1.1l-8.9-3.1l-5,0.2l-6.2,1.7l-1.5-2.5l3.7-4.8l-1-9.4l3-5.6l0.7-4.1l-2.9-7.2l-2.8-4l0.7-2l-4.2-5.6L39,208.4z"/>
+<path vector-effect="non-scaling-stroke" class="st4" d="M168.8,257.1l2-2.7l-1.9-2l2.7-0.5l-0.4-4.8l0.8-0.1l1.1-0.1l21.2-1.6
 	l-0.6-3.5l3.4,0.6l19.6-2.2l11.9-0.6l12.5-1.3l20.7-1.8l0.2-0.4l30.9-4.1l-0.4,3.7l-3.7,6.3l-2.8-0.3l-5.8,4.6h-2.8l-2.6,4.6
 	l-3.7,1.5l-3.5,3.6l-4.4,0.7l-3.5,3.6l-1.1,3.2l0,0l-2.6,0.9l0.1,4.7l-20.3,2.4l-41.2,3.5l0.1,0.2l-33.5,2.4l3.7-3l-2-5.5l4.7-4.5
-	l-1.7-1.9l4.3-3.2L164.5,93.4z"/>
+	l-1.7-1.9l4.3-3.2L168.8,257.1z"/>
 <g class="st5">
 	<rect x="173.6" y="86.8" class="st6" width="99.4" height="34.8"/>
 	<text transform="matrix(1 0 0 1 173.6094 98.4474)" class="st7 st8 st9">Tennessee</text>
@@ -56,13 +58,23 @@
 <text transform="matrix(1 0 0 1 370 78.72)" style="font-family:'MyriadPro-Semibold'; font-size:12px;">Louisiana</text>
 <text transform="matrix(1 0 0 1 370 93.12)" style="font-family:'MyriadPro-Semibold'; font-size:12px;">Tennessee</text>
 <rect x="185.3" y="134.1" class="st10" width="146.2" height="34.8"/>
-<text transform="matrix(1 -2.726965e-03 2.726965e-03 1 178.7443 164.4705)" class="st11 st9">1. South Carolina</text>
+<text transform="matrix(1 -2.726965e-03 2.726965e-03 1 12.4223 48.7152)" class="st11 st9"> South Carolina</text>
 <rect x="175.8" y="86.6" class="st10" width="146.2" height="34.8"/>
-<text transform="matrix(1 0 0 1 175.8414 98.3067)" class="st11 st9">5. Tennessee</text>
-<rect x="20.5" y="20.7" class="st10" width="146.2" height="34.8"/>
-<text transform="matrix(1 0 0 1 19.9627 44.4109)" class="st11 st9">3. North Carolina</text>
-<rect x="17.9" y="180.5" class="st10" width="146.2" height="34.8"/>
-<text transform="matrix(1 0 0 1 11.4464 240.7549)" class="st11 st9">4. Louisiana</text>
-<rect x="118.7" y="208.9" class="st10" width="45.5" height="22"/>
-<text transform="matrix(1 0 0 1 118.6938 220.5795)" class="st11 st9">2. idaho</text>
+<text transform="matrix(1 0 0 1 180.1202 261.9872)" class="st11 st9">Tennessee</text>
+<text transform="matrix(1 0 0 1 38.9197 143.3051)" class="st11 st9">North Carolina</text>
+<text transform="matrix(1 0 0 1 41.4949 293.0838)" class="st11 st9"> Louisiana</text>
+<rect x="63.5" y="224.5" class="st10" width="45.5" height="22"/>
+<text transform="matrix(1 0 0 1 199.3332 164.865)" class="st11 st9"> idaho</text>
+<text transform="matrix(1 0 0 1 63.5828 16.515)" class="st12 st11 st13">Company Rental Interest</text>
+<rect x="15.1" y="75.3" class="st10" width="74.6" height="72.7"/>
+<text transform="matrix(1 0 0 1 15.1113 90.4502)" class="st11 st14">1.</text>
+<rect x="243.8" y="77.1" class="st10" width="45" height="40.1"/>
+<text transform="matrix(1 0 0 1 243.7993 92.2241)" class="st11 st14">2</text>
+<text transform="matrix(1 0 0 1 253.5994 92.2241)" class="st11 st14">.</text>
+<rect x="34.3" y="157.1" class="st10" width="34.7" height="26.4"/>
+<text transform="matrix(1 0 0 1 34.3241 172.2815)" class="st11 st14">3.</text>
+<rect x="23.9" y="245.8" class="st10" width="111.3" height="99.5"/>
+<text transform="matrix(1 0 0 1 23.8975 260.9382)" class="st11 st14">4. </text>
+<rect x="181.4" y="220.9" class="st10" width="35.1" height="38.9"/>
+<text transform="matrix(1 0 0 1 181.3788 236.0357)" class="st11 st14">5. </text>
 </svg>
