@@ -51,12 +51,6 @@
 	<rect x="119.5" y="202.5" class="st6" width="99.4" height="34.8"/>
 	<text transform="matrix(1 0 0 1 119.543 214.2207)" class="st7 st8 st9">Idaho</text>
 </g>
-<rect x="370" y="27" class="st10" width="113" height="150"/>
-<text transform="matrix(1 0 0 1 370 35.52)" style="font-family:'MyriadPro-Semibold'; font-size:12px;">South Carolina</text>
-<text transform="matrix(1 0 0 1 370 49.92)" style="font-family:'MyriadPro-Semibold'; font-size:12px;">idaho</text>
-<text transform="matrix(1 0 0 1 370 64.32)" style="font-family:'MyriadPro-Semibold'; font-size:12px;">North Carolina</text>
-<text transform="matrix(1 0 0 1 370 78.72)" style="font-family:'MyriadPro-Semibold'; font-size:12px;">Louisiana</text>
-<text transform="matrix(1 0 0 1 370 93.12)" style="font-family:'MyriadPro-Semibold'; font-size:12px;">Tennessee</text>
 <rect x="185.3" y="134.1" class="st10" width="146.2" height="34.8"/>
 <text transform="matrix(1 -2.726965e-03 2.726965e-03 1 12.4223 48.7152)" class="st11 st9"> South Carolina</text>
 <rect x="175.8" y="86.6" class="st10" width="146.2" height="34.8"/>
